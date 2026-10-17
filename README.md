@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Isaak — cybersecurity, investigation, and automation" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="G'day from Isaak, a.k.a. pseudozac" width="100%" />
 </p>
 
 <p align="center">
@@ -16,12 +16,14 @@
   </a>
 </p>
 
-<h2 align="center">Turning noisy signals into clear stories.</h2>
+# Hey there, g'day! I'm Isaak a.k.a. [pseudozac](https://github.com/pseudozac) 👋
 
-<p align="center">
-  Hey, I'm Isaak — a cybersecurity professional working across SOC investigations, threat hunting, and network security.
-  I like figuring out what happened, what the evidence actually says, and what to check next.
-</p>
+### Cybersecurity professional, writer, photographer, and gamer!
+
+I follow the clues behind security alerts, then turn the evidence into a clear story: what happened, what it supports, and what to check next.
+
+- 🛡️ **Into:** threat hunting, incident response, and security automation
+- 🌙 **Off duty:** photography, gaming, travel, anime, music, literature, and films
 
 ## 🧪 Project notebook
 
@@ -64,7 +66,3 @@
   **Education:** B.E. in Computer Science and Engineering · Chandigarh University
 
 </details>
-
-## 🌙 Off shift
-
-📸 Photography &nbsp; 🎮 Gaming &nbsp; ✈️ Travel &nbsp; 🎧 Anime, music, literature, and films
