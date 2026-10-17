@@ -1,29 +1,29 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Isaak — cybersecurity, investigation, and automation" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="G'day from Isaak, a.k.a. pseudozac" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaak99/">💼 LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/i_z_a_a_c/">📸 Instagram</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/pseudozac">💻 GitHub</a>
+  <a href="https://www.instagram.com/i_z_a_a_c/" title="Instagram">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" alt="Instagram" width="26" height="26" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/isaak99/" title="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" width="26" height="26" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/pseudozac" title="GitHub">
+    <img src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="GitHub" width="26" height="26" />
+  </a>
 </p>
 
-<h2 align="center">Turning noisy signals into clear stories.</h2>
+# Hey there, g'day! I'm Isaak <sub>a.k.a. [pseudozac](https://github.com/pseudozac)</sub> 👋
 
-<p align="center">
-  Hey, I'm Isaak — a cybersecurity professional working across SOC investigations, threat hunting, and network security.
-  I like figuring out what happened, what the evidence actually says, and what to check next.
-</p>
+### Cybersecurity professional, writer, photographer, and gamer!
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>100+</strong><br/>security alerts triaged monthly</td>
-    <td align="center"><strong>&lt;30 min</strong><br/>response-time SLA</td>
-    <td align="center"><strong>58%</strong><br/>less execution time through firewall automation</td>
-  </tr>
-</table>
+I follow the clues behind security alerts, then turn the evidence into a clear story: what happened, what it supports, and what to check next.
+
+- 🛡️ **Into:** threat hunting, incident response, and security automation
+- 🌙 **Off duty:** photography, gaming, travel, anime, music, literature, and films
 
 ## 🧪 Project notebook
 
@@ -66,7 +66,3 @@
   **Education:** B.E. in Computer Science and Engineering · Chandigarh University
 
 </details>
-
-## 🌙 Off shift
-
-📸 Photography &nbsp; 🎮 Gaming &nbsp; ✈️ Travel &nbsp; 🎧 Anime, music, literature, and films

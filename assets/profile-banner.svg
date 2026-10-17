@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Isaak Hayong — cybersecurity, investigation, automation</title>
+  <title id="title">Isaak, a.k.a. pseudozac — cybersecurity, investigation, automation</title>
   <desc id="desc">A midnight blue and violet cyber-inspired banner with bright cyan and lime accents, signal paths, and a shield graphic.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -24,9 +24,10 @@
   <path d="M0 292C248 242 362 356 609 288s367-28 591-124" fill="none" stroke="#bb8cff" stroke-opacity=".16" stroke-width="2"/>
   <path d="M0 310C251 259 373 366 624 302s366-28 576-125" fill="none" stroke="#4de3d0" stroke-opacity=".2" stroke-width="1.5"/>
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
-    <text x="76" y="78" fill="#c4ff52" font-size="14" font-weight="700" letter-spacing="3">HELLO, I'M</text>
+    <text x="76" y="78" fill="#c4ff52" font-size="14" font-weight="700" letter-spacing="3">G'DAY, INTERNET</text>
     <text x="72" y="168" fill="#f5f5ff" font-size="82" font-weight="800" letter-spacing="-3">ISAAK</text>
-    <text x="78" y="208" fill="#c2c5dc" font-size="16" font-weight="600" letter-spacing="2">CYBERSECURITY  /  INVESTIGATION  /  AUTOMATION</text>
+    <text x="328" y="158" fill="#c4ff52" font-size="22" font-weight="600" letter-spacing=".5">a.k.a. pseudozac</text>
+    <text x="78" y="208" fill="#c2c5dc" font-size="14" font-weight="600" letter-spacing="1.2">CYBERSECURITY  /  THREAT HUNTING  /  SECURITY ENGINEERING</text>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1">
       <rect x="78" y="238" width="127" height="34" rx="17" fill="#c4ff52" fill-opacity=".12" stroke="#c4ff52" stroke-opacity=".52"/>
       <text x="97" y="260" fill="#d8ff9a">THREAT HUNT</text>
@@ -49,10 +50,5 @@
     <circle cx="90" cy="-54" r="7" fill="#fb72c9"/>
     <path d="M0-36L28-25V0C28 20 14 35 0 43C-14 35-28 20-28 0V-25Z" fill="#182339" stroke="#c4ff52" stroke-width="2"/>
     <path d="M-11 1L-3 9L13-9" fill="none" stroke="#c4ff52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1">
-    <rect x="1022" y="49" width="116" height="29" rx="14.5" fill="#271d3b" stroke="#bb8cff" stroke-opacity=".7"/>
-    <circle cx="1040" cy="63.5" r="4" fill="#c4ff52"/>
-    <text x="1052" y="68" fill="#e5d7ff">SIGNAL FOUND</text>
   </g>
 </svg>
