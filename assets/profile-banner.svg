@@ -26,7 +26,8 @@
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
     <text x="76" y="78" fill="#c4ff52" font-size="14" font-weight="700" letter-spacing="3">G'DAY, INTERNET</text>
     <text x="72" y="168" fill="#f5f5ff" font-size="82" font-weight="800" letter-spacing="-3">ISAAK</text>
-    <text x="78" y="208" fill="#c2c5dc" font-size="14" font-weight="600" letter-spacing="1.2">A.K.A. PSEUDOZAC  /  THREAT HUNTING  /  SECURITY ENGINEERING</text>
+    <text x="328" y="158" fill="#c4ff52" font-size="22" font-weight="600" letter-spacing=".5">a.k.a. pseudozac</text>
+    <text x="78" y="208" fill="#c2c5dc" font-size="14" font-weight="600" letter-spacing="1.2">CYBERSECURITY  /  THREAT HUNTING  /  SECURITY ENGINEERING</text>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1">
       <rect x="78" y="238" width="127" height="34" rx="17" fill="#c4ff52" fill-opacity=".12" stroke="#c4ff52" stroke-opacity=".52"/>
       <text x="97" y="260" fill="#d8ff9a">THREAT HUNT</text>
