@@ -1,36 +1,72 @@
-### Hey there, g'day! I'm Isaak a.k.a. [pseudozac][github] 👋
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Isaak — cybersecurity, investigation, and automation" width="100%" />
+</p>
 
-## I'm a student, writer, photographer and gamer!
-- 📘 I'm currently learning everything 🤓
-- ⚡ Fun fact: I love to code!
+<p align="center">
+  <a href="https://www.linkedin.com/in/isaak99/">💼 LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/i_z_a_a_c/">📸 Instagram</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/pseudozac">💻 GitHub</a>
+</p>
 
-### Connect with me:
+<h2 align="center">Turning noisy signals into clear stories.</h2>
 
-[<img align="left" alt="pseudozac | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="pseudozac | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+<p align="center">
+  Hey, I'm Isaak — a cybersecurity professional working across SOC investigations, threat hunting, and network security.
+  I like figuring out what happened, what the evidence actually says, and what to check next.
+</p>
 
-<br/>
+<table align="center">
+  <tr>
+    <td align="center"><strong>100+</strong><br/>security alerts triaged monthly</td>
+    <td align="center"><strong>&lt;30 min</strong><br/>response-time SLA</td>
+    <td align="center"><strong>58%</strong><br/>less execution time through firewall automation</td>
+  </tr>
+</table>
 
-### Languages and Tools:
+## 🧪 Project notebook
 
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][vs]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][html]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][css]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][javascript]
-[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][git]
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][github]
+<details>
+  <summary>Open the notebook — 4 prototypes in progress</summary>
 
-<br />
-<br />
+  <br/>
 
----
+  - **AI SOC Investigation Assistant** — IOC reputation checks for IPs, domains, and URLs to support first-pass L1 investigations.
+  - **Incident Response & Threat Investigation Lab** — Synthetic endpoint and network events for evidence correlation, timelines, analyst notes, and MITRE ATT&CK mapping.
+  - **Ethereum Blockchain Forensics & Wallet Tracing** — A Python prototype for read-only public-chain analysis, multi-hop tracing, and evidence-oriented reports with explainable risk indicators.
+  - **Natter Chain** — A prototype exploring wallet-based sign-in, encrypted off-chain messaging, and message-integrity checks.
 
-[instagram]: https://www.instagram.com/i_z_a_a_c/
-[linkedin]: https://www.linkedin.com/in/isaak99/
-[github]: https://github.com/pseudozac
-[vs]: https://code.visualstudio.com/
-[html]: https://en.wikipedia.org/wiki/HTML5
-[css]: https://en.wikipedia.org/wiki/CSS
-[javascript]: https://www.javascript.com/
-[git]: https://git-scm.com/
-[github]: https://github.com/
+  These are prototypes; the project descriptions don’t imply live integrations or production deployment.
+
+</details>
+
+## 🧰 Toolkit
+
+<details>
+  <summary>Peek at the tools I work with</summary>
+
+  <br/>
+
+  - **SIEM and endpoint:** Microsoft Sentinel, Securonix, Splunk Enterprise, Microsoft Defender XDR, CrowdStrike Falcon, Trend Micro
+  - **Threat intelligence, cloud, and network:** Recorded Future, AWS GuardDuty, Vectra AI, Wireshark, Zscaler, Cloudflare, Akamai DDoS Protection
+  - **Network security and automation:** Check Point, Fortinet, Skybox Security, BackBox Automation, Palo Alto Cortex XSOAR, Splunk SOAR
+
+</details>
+
+## 🎓 Background
+
+<details>
+  <summary>Certifications and education</summary>
+
+  <br/>
+
+  **Certifications:** Zscaler Internet Access (ZIA) Certified Administrator · Zscaler Private Access (ZPA) Certified Administrator · Check Point Certified Security Administrator (R81)
+
+  **Education:** B.E. in Computer Science and Engineering · Chandigarh University
+
+</details>
+
+## 🌙 Off shift
+
+📸 Photography &nbsp; 🎮 Gaming &nbsp; ✈️ Travel &nbsp; 🎧 Anime, music, literature, and films
