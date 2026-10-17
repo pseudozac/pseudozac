@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="G'day from Isaak, a.k.a. pseudozac" width="100%" />
+  <img src="./assets/isaak-banner-2026.svg" alt="G'day from Isaak, a.k.a. pseudozac — cybersecurity, threat hunting, and security engineering" width="100%" />
 </p>
 
 <p align="center">
