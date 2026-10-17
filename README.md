@@ -3,11 +3,17 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaak99/">💼 LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/i_z_a_a_c/">📸 Instagram</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/pseudozac">💻 GitHub</a>
+  <a href="https://www.instagram.com/i_z_a_a_c/" title="Instagram">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" alt="Instagram" width="26" height="26" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/isaak99/" title="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" width="26" height="26" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/pseudozac" title="GitHub">
+    <img src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="GitHub" width="26" height="26" />
+  </a>
 </p>
 
 <h2 align="center">Turning noisy signals into clear stories.</h2>
@@ -16,14 +22,6 @@
   Hey, I'm Isaak — a cybersecurity professional working across SOC investigations, threat hunting, and network security.
   I like figuring out what happened, what the evidence actually says, and what to check next.
 </p>
-
-<table align="center">
-  <tr>
-    <td align="center"><strong>100+</strong><br/>security alerts triaged monthly</td>
-    <td align="center"><strong>&lt;30 min</strong><br/>response-time SLA</td>
-    <td align="center"><strong>58%</strong><br/>less execution time through firewall automation</td>
-  </tr>
-</table>
 
 ## 🧪 Project notebook
 
