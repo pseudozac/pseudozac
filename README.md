@@ -16,7 +16,7 @@
   </a>
 </p>
 
-# Hey there, g'day! I'm Isaak a.k.a. [pseudozac](https://github.com/pseudozac) 👋
+# Hey there, g'day! I'm Isaak <sub>a.k.a. [pseudozac](https://github.com/pseudozac)</sub> 👋
 
 ### Cybersecurity professional, writer, photographer, and gamer!
 
