@@ -51,35 +51,35 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
   ### 🧭 SOC & Threat Intelligence
 
   <p>
-    <img src="https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=flat&amp;logo=microsoft&amp;logoColor=white" alt="Microsoft Sentinel" />
-    <img src="https://img.shields.io/badge/Splunk_Enterprise-000000?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk Enterprise" />
-    <img src="https://img.shields.io/badge/Securonix-5B2C91?style=flat" alt="Securonix" />
-    <img src="https://img.shields.io/badge/Recorded_Future-14213D?style=flat" alt="Recorded Future" />
-    <img src="https://img.shields.io/badge/Vectra_AI-00A6A6?style=flat" alt="Vectra AI" />
+    <img src="https://img.shields.io/badge/%F0%9F%94%8E_Microsoft_Sentinel-0078D4.svg?style=flat" alt="Microsoft Sentinel" />
+    <img src="https://img.shields.io/badge/Splunk_Enterprise-000000.svg?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk Enterprise" />
+    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Securonix-5B2C91.svg?style=flat" alt="Securonix" />
+    <img src="https://img.shields.io/badge/%F0%9F%A7%AD_Recorded_Future-14213D.svg?style=flat" alt="Recorded Future" />
+    <img src="https://img.shields.io/badge/%F0%9F%95%B8%EF%B8%8F_Vectra_AI-00A6A6.svg?style=flat" alt="Vectra AI" />
   </p>
 
   ### 🛡️ Endpoint, Cloud & Network
 
   <p>
-    <img src="https://img.shields.io/badge/Microsoft_Defender_XDR-0078D4?style=flat&amp;logo=microsoft&amp;logoColor=white" alt="Microsoft Defender XDR" />
-    <img src="https://img.shields.io/badge/CrowdStrike_Falcon-E31E24?style=flat" alt="CrowdStrike Falcon" />
-    <img src="https://img.shields.io/badge/Trend_Micro-D71920?style=flat" alt="Trend Micro" />
-    <img src="https://img.shields.io/badge/AWS_GuardDuty-232F3E?style=flat&amp;logo=amazonaws&amp;logoColor=white" alt="AWS GuardDuty" />
-    <img src="https://img.shields.io/badge/Wireshark-1679A9?style=flat&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark" />
-    <img src="https://img.shields.io/badge/Zscaler-5A2CA0?style=flat" alt="Zscaler" />
-    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare" />
-    <img src="https://img.shields.io/badge/Akamai_DDoS_Protection-0099CC?style=flat" alt="Akamai DDoS Protection" />
+    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Microsoft_Defender_XDR-0078D4.svg?style=flat" alt="Microsoft Defender XDR" />
+    <img src="https://img.shields.io/badge/%F0%9F%A6%85_CrowdStrike_Falcon-E31E24.svg?style=flat" alt="CrowdStrike Falcon" />
+    <img src="https://img.shields.io/badge/Trend_Micro-D71920.svg?style=flat&amp;logo=trendmicro&amp;logoColor=white" alt="Trend Micro" />
+    <img src="https://img.shields.io/badge/%E2%98%81%EF%B8%8F_AWS_GuardDuty-232F3E.svg?style=flat" alt="AWS GuardDuty" />
+    <img src="https://img.shields.io/badge/Wireshark-1679A9.svg?style=flat&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark" />
+    <img src="https://img.shields.io/badge/%F0%9F%94%90_Zscaler-5A2CA0.svg?style=flat" alt="Zscaler" />
+    <img src="https://img.shields.io/badge/Cloudflare-F38020.svg?style=flat&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare" />
+    <img src="https://img.shields.io/badge/Akamai_DDoS_Protection-0099CC.svg?style=flat&amp;logo=akamai&amp;logoColor=white" alt="Akamai DDoS Protection" />
   </p>
 
   ### ⚙️ Network Security & Automation
 
   <p>
-    <img src="https://img.shields.io/badge/Check_Point-CC0000?style=flat" alt="Check Point" />
-    <img src="https://img.shields.io/badge/Fortinet-EE3124?style=flat&amp;logo=fortinet&amp;logoColor=white" alt="Fortinet" />
-    <img src="https://img.shields.io/badge/Skybox_Security-243B53?style=flat" alt="Skybox Security" />
-    <img src="https://img.shields.io/badge/BackBox_Automation-5B4B8A?style=flat" alt="BackBox Automation" />
-    <img src="https://img.shields.io/badge/Palo_Alto_Cortex_XSOAR-F04B4B?style=flat" alt="Palo Alto Cortex XSOAR" />
-    <img src="https://img.shields.io/badge/Splunk_SOAR-000000?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk SOAR" />
+    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Check_Point-CC0000.svg?style=flat" alt="Check Point" />
+    <img src="https://img.shields.io/badge/Fortinet-EE3124.svg?style=flat&amp;logo=fortinet&amp;logoColor=white" alt="Fortinet" />
+    <img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F_Skybox_Security-243B53.svg?style=flat" alt="Skybox Security" />
+    <img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_BackBox_Automation-5B4B8A.svg?style=flat" alt="BackBox Automation" />
+    <img src="https://img.shields.io/badge/Palo_Alto_Cortex_XSOAR-F04B4B.svg?style=flat&amp;logo=paloaltonetworks&amp;logoColor=white" alt="Palo Alto Cortex XSOAR" />
+    <img src="https://img.shields.io/badge/Splunk_SOAR-000000.svg?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk SOAR" />
   </p>
 
 </details>
