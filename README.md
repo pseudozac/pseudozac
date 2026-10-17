@@ -41,16 +41,46 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
 </details>
 
-## 🧰 Toolkit
+## 🧰 My Favorite Tools
 
-<details>
-  <summary>Peek at the tools I work with</summary>
+<details open>
+  <summary>A few tools and platforms from my security work</summary>
 
   <br/>
 
-  - **SIEM and endpoint:** Microsoft Sentinel, Securonix, Splunk Enterprise, Microsoft Defender XDR, CrowdStrike Falcon, Trend Micro
-  - **Threat intelligence, cloud, and network:** Recorded Future, AWS GuardDuty, Vectra AI, Wireshark, Zscaler, Cloudflare, Akamai DDoS Protection
-  - **Network security and automation:** Check Point, Fortinet, Skybox Security, BackBox Automation, Palo Alto Cortex XSOAR, Splunk SOAR
+  ### 🧭 SOC & Threat Intelligence
+
+  <p>
+    <img src="https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=flat&amp;logo=microsoft&amp;logoColor=white" alt="Microsoft Sentinel" />
+    <img src="https://img.shields.io/badge/Splunk_Enterprise-000000?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk Enterprise" />
+    <img src="https://img.shields.io/badge/Securonix-5B2C91?style=flat" alt="Securonix" />
+    <img src="https://img.shields.io/badge/Recorded_Future-14213D?style=flat" alt="Recorded Future" />
+    <img src="https://img.shields.io/badge/Vectra_AI-00A6A6?style=flat" alt="Vectra AI" />
+  </p>
+
+  ### 🛡️ Endpoint, Cloud & Network
+
+  <p>
+    <img src="https://img.shields.io/badge/Microsoft_Defender_XDR-0078D4?style=flat&amp;logo=microsoft&amp;logoColor=white" alt="Microsoft Defender XDR" />
+    <img src="https://img.shields.io/badge/CrowdStrike_Falcon-E31E24?style=flat" alt="CrowdStrike Falcon" />
+    <img src="https://img.shields.io/badge/Trend_Micro-D71920?style=flat" alt="Trend Micro" />
+    <img src="https://img.shields.io/badge/AWS_GuardDuty-232F3E?style=flat&amp;logo=amazonaws&amp;logoColor=white" alt="AWS GuardDuty" />
+    <img src="https://img.shields.io/badge/Wireshark-1679A9?style=flat&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark" />
+    <img src="https://img.shields.io/badge/Zscaler-5A2CA0?style=flat" alt="Zscaler" />
+    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare" />
+    <img src="https://img.shields.io/badge/Akamai_DDoS_Protection-0099CC?style=flat" alt="Akamai DDoS Protection" />
+  </p>
+
+  ### ⚙️ Network Security & Automation
+
+  <p>
+    <img src="https://img.shields.io/badge/Check_Point-CC0000?style=flat" alt="Check Point" />
+    <img src="https://img.shields.io/badge/Fortinet-EE3124?style=flat&amp;logo=fortinet&amp;logoColor=white" alt="Fortinet" />
+    <img src="https://img.shields.io/badge/Skybox_Security-243B53?style=flat" alt="Skybox Security" />
+    <img src="https://img.shields.io/badge/BackBox_Automation-5B4B8A?style=flat" alt="BackBox Automation" />
+    <img src="https://img.shields.io/badge/Palo_Alto_Cortex_XSOAR-F04B4B?style=flat" alt="Palo Alto Cortex XSOAR" />
+    <img src="https://img.shields.io/badge/Splunk_SOAR-000000?style=flat&amp;logo=splunk&amp;logoColor=white" alt="Splunk SOAR" />
+  </p>
 
 </details>
 
