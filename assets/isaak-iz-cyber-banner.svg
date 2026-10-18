@@ -1,0 +1,621 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="banner-title banner-description">
+  <title id="banner-title">Isaak, a.k.a. pseudozac — cybersecurity and threat hunting</title>
+  <desc id="banner-description">Three independently falling neon matrix streams and an analyst at a laptop with an animated hexagonal IZ Cyber-Core badge.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06070B" />
+      <stop offset="55%" stop-color="#0B0D18" />
+      <stop offset="100%" stop-color="#110C22" />
+    </linearGradient>
+
+    <!-- Matrix Stream Repeating Theme Gradient -->
+    <linearGradient id="matrix-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="25%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#A3E635" />
+      <stop offset="75%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+
+    <!-- Matrix Raindrop Head Highlight Gradient -->
+    <linearGradient id="matrix-drop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0" />
+      <stop offset="65%" stop-color="#A855F7" stop-opacity="0.7" />
+      <stop offset="92%" stop-color="#A3E635" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Horizontal Loading Bar Gradient -->
+    <linearGradient id="load-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF" />
+      <stop offset="55%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#A3E635" />
+    </linearGradient>
+
+    <!-- Bottom Wave Gradient -->
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#2DD4BF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#A3E635" stop-opacity="0.15" />
+    </linearGradient>
+
+    <!-- Ambient Scene Glow -->
+    <radialGradient id="rig-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.18" />
+      <stop offset="45%" stop-color="#A855F7" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Screen Light Cone Gradient -->
+    <linearGradient id="screen-beam" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#A855F7" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Magnifying Lens Glass Tint -->
+    <radialGradient id="lens-glass" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#090D16" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#A3E635" stop-opacity="0.3" />
+    </radialGradient>
+
+    <!-- Clip Window for Triple Matrix Columns -->
+    <clipPath id="triple-matrix-clip">
+      <rect x="64" y="96" width="60" height="196" rx="6" />
+    </clipPath>
+
+    <!-- Clip Window for Single-Line Percentage Ticker -->
+    <clipPath id="pct-window">
+      <rect x="0" y="0" width="48" height="16" />
+    </clipPath>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dot-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
+
+    <!-- Neon Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- The IZ mark is built from angular vector paths, not a font. -->
+    <linearGradient id="iz-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ECFEFF" />
+      <stop offset="0.38" stop-color="#2DD4BF" />
+      <stop offset="1" stop-color="#A3E635" />
+    </linearGradient>
+    <linearGradient id="iz-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0" />
+      <stop offset="0.8" stop-color="#2DD4BF" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#D9FF8C" stop-opacity="0.95" />
+    </linearGradient>
+    <clipPath id="iz-core-clip">
+      <path d="M0-23 23-11.5V11.5L0 23-23 11.5V-11.5Z" />
+    </clipPath>
+    <g id="iz-glyph">
+      <path d="M-18-10H-5L-8-6H-9V7H-5L-8 11H-19L-15 7H-13V-6H-18Z" />
+      <path d="M-1-10H18L16-5 4 7H15L11 11H-4L-2 6 10-6H-4Z" />
+    </g>
+  </defs>
+
+  <style>
+    .font-sans {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace;
+    }
+
+    /* ==================== CYBERPUNK ANIMATIONS ==================== */
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    /* Triple Matrix Column Cascades (Staggered Speeds) */
+    @keyframes matrix-fall-1 {
+      0%   { transform: translateY(-196px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes matrix-fall-2 {
+      0%   { transform: translateY(0px); }
+      100% { transform: translateY(-196px); }
+    }
+    @keyframes matrix-drop-stream {
+      0%   { transform: translateY(-120px); }
+      100% { transform: translateY(240px); }
+    }
+
+    @keyframes matrix-color-cycle {
+      0%, 100% { fill: #A3E635; }
+      33%      { fill: #2DD4BF; }
+      66%      { fill: #C084FC; }
+    }
+    @keyframes matrix-color-cycle-alt {
+      0%, 100% { fill: #2DD4BF; }
+      33%      { fill: #A855F7; }
+      66%      { fill: #A3E635; }
+    }
+
+    /* Slower 12s Loading Bar */
+    @keyframes load-bar {
+      0% { width: 0px; opacity: 0.85; }
+      15% { width: 99.5px; }
+      30% { width: 199px; }
+      45% { width: 298.5px; opacity: 0.95; animation-timing-function: linear; }
+      88%, 96% { width: 398px; opacity: 1; }
+      100% { width: 0px; opacity: 0.3; }
+    }
+
+    /* Synchronized Percentage Reel (0% -> 25% -> 50% -> 75..100%) */
+    @keyframes pct-reel {
+      0%     { transform: translateY(0px); animation-timing-function: steps(1, end); }
+      15%    { transform: translateY(-16px); animation-timing-function: steps(1, end); }
+      30%    { transform: translateY(-32px); animation-timing-function: steps(1, end); }
+      45%    { transform: translateY(-48px); animation-timing-function: steps(25, end); }
+      88%, 96% { transform: translateY(-448px); animation-timing-function: steps(1, end); }
+      100%   { transform: translateY(0px); }
+    }
+
+    /* Hacker Head Subtle Bob while Analyzing */
+    @keyframes head-bob {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(2.5px) rotate(-1deg); }
+    }
+
+    /* Fast Finger Typing Animation */
+    @keyframes type-left {
+      0%, 100% { transform: translateY(0px); }
+      25% { transform: translateY(-4px); }
+      50% { transform: translateY(1px); }
+      75% { transform: translateY(-3px); }
+    }
+
+    /* Swinging Magnifying Glass */
+    @keyframes swing-loupe {
+      0%, 100% { transform: translate(0px, 0px) rotate(-10deg); }
+      35% { transform: translate(24px, -12px) rotate(8deg); }
+      70% { transform: translate(-14px, -6px) rotate(-3deg); }
+    }
+
+    /* Rotating Reticle Inside Magnifying Glass */
+    @keyframes spin-reticle {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Threat Node Alert Pulse when Scanned */
+    @keyframes threat-pulse {
+      0%, 100% { r: 4px; opacity: 0.7; }
+      35%, 50% { r: 7.5px; opacity: 1; }
+    }
+
+    /* Floating Code Lines on HUD */
+    @keyframes code-scroll {
+      0%, 100% { opacity: 0.35; transform: translateX(0px); }
+      50% { opacity: 0.95; transform: translateX(4px); }
+    }
+
+    /* Keystroke Ripple Sparks */
+    @keyframes key-spark {
+      0%, 100% { opacity: 0; transform: translateY(0px); }
+      40% { opacity: 0.9; transform: translateY(-8px); }
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(-380px); }
+      100% { transform: translateY(380px); }
+    }
+
+    .cursor-blink { animation: blink 1.1s infinite; }
+    .matrix-scroll-1 { animation: matrix-fall-1 3.5s linear infinite; }
+    .matrix-scroll-2 { animation: matrix-fall-2 2.8s linear infinite; }
+    .matrix-drop-1 { animation: matrix-drop-stream 1.13s linear -0.31s infinite; }
+    .matrix-drop-2 { animation: matrix-drop-stream 1.57s linear -1.02s infinite; }
+    .matrix-drop-3 { animation: matrix-drop-stream 1.31s linear -0.68s infinite; }
+    .theme-shift-1 { animation: matrix-color-cycle 4.5s ease-in-out infinite; }
+    .theme-shift-2 { animation: matrix-color-cycle-alt 4.5s ease-in-out infinite; }
+
+
+    .progress-fill { animation: load-bar 12s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .pct-strip { animation: pct-reel 12s infinite; }
+
+    .hacker-head {
+      transform-origin: 915px 155px;
+      animation: head-bob 3.2s ease-in-out infinite;
+    }
+    .typing-hand {
+      animation: type-left 0.35s steps(2, end) infinite;
+    }
+    .spark-1 { animation: key-spark 0.6s ease-out infinite; }
+    .spark-2 { animation: key-spark 0.6s ease-out 0.3s infinite; }
+
+    .investigator-loupe {
+      transform-origin: 1005px 140px;
+      animation: swing-loupe 5.5s ease-in-out infinite;
+    }
+    .reticle-spin {
+      transform-origin: 1005px 140px;
+      animation: spin-reticle 14s linear infinite;
+    }
+    .anomaly-node {
+      animation: threat-pulse 5.5s ease-in-out infinite;
+    }
+    .code-1 { animation: code-scroll 2.2s ease-in-out infinite; }
+    .code-2 { animation: code-scroll 2.2s ease-in-out 0.7s infinite; }
+    .code-3 { animation: code-scroll 2.2s ease-in-out 1.4s infinite; }
+    .scan-bar { animation: scanline 9s linear infinite; }
+
+    @keyframes iz-core-pulse {
+      0%, 100% { stroke: #2DD4BF; opacity: 0.72; }
+      45% { stroke: #A3E635; opacity: 1; }
+      72% { stroke: #8B5CF6; opacity: 0.88; }
+    }
+    @keyframes iz-circuit-flow { to { stroke-dashoffset: -180; } }
+    @keyframes iz-scan-pass { from { transform: translateY(0px); } to { transform: translateY(56px); } }
+    @keyframes iz-glyph-jitter {
+      0%, 80%, 86%, 100% { transform: translateX(0px); }
+      81%, 84% { transform: translateX(-0.9px); }
+      82%, 85% { transform: translateX(0.8px); }
+    }
+    @keyframes iz-cyan-split { 0%, 80%, 83%, 86%, 100% { opacity: 0; } 81%, 84% { opacity: 0.8; } }
+    @keyframes iz-violet-split { 0%, 81%, 84%, 87%, 100% { opacity: 0; } 82%, 85% { opacity: 0.7; } }
+    @keyframes iz-scan-tear {
+      0%, 66%, 72%, 100% { opacity: 0; transform: translateX(0px); }
+      67%, 70% { opacity: 0.9; transform: translateX(-2px); }
+      68%, 71% { opacity: 0.65; transform: translateX(2px); }
+    }
+    .iz-halo { animation: iz-core-pulse 2.8s ease-in-out infinite; }
+    .iz-circuit { animation: iz-circuit-flow 7s linear infinite; }
+    .iz-glyph-glitch { animation: iz-glyph-jitter 6.4s steps(1,end) infinite; }
+    .iz-echo-cyan { animation: iz-cyan-split 6.4s steps(1,end) infinite; }
+    .iz-echo-violet { animation: iz-violet-split 6.4s steps(1,end) infinite; }
+    .iz-scanline { animation: iz-scan-pass 1.9s linear -0.65s infinite; }
+    .iz-scan-glitch { animation: iz-scan-tear 4.7s steps(1,end) -1.1s infinite; }
+    .iz-status { animation: iz-core-pulse 2.8s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .matrix-drop-1, .matrix-drop-2, .matrix-drop-3 { opacity: 0.75; }
+      .progress-fill { width: 398px; opacity: 1; }
+      .pct-strip { transform: translateY(-448px); }
+    }
+
+  </style>
+
+  <!-- 1. Main Rounded Banner Container -->
+  <rect width="1200" height="380" rx="22" fill="url(#bg-grad)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="1200" height="380" rx="22" fill="url(#dot-grid)" />
+  <rect class="scan-bar" width="1200" height="50" fill="url(#wave-grad)" opacity="0.04" />
+
+  <!-- Minimalist HUD Corner Micro-Markers -->
+  <g stroke="#334155" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M 28 42 L 28 28 L 42 28" />
+    <path d="M 1172 42 L 1172 28 L 1158 28" />
+    <path d="M 28 338 L 28 352 L 42 352" />
+    <path d="M 1172 338 L 1172 352 L 1158 352" />
+  </g>
+  <text x="1145" y="42" text-anchor="end" class="font-mono" font-size="10" fill="#475569" letter-spacing="2">SYS.ONLINE // HUNT_MODE</text>
+
+  <!-- Ambient Flowing Bottom Cyber Waves -->
+  <path d="M 0 345 Q 320 305, 640 340 T 1200 310" fill="none" stroke="url(#wave-grad)" stroke-width="1.5" />
+  <path d="M 0 360 Q 400 325, 760 355 T 1200 335" fill="none" stroke="#2DD4BF" stroke-opacity="0.15" stroke-width="1" />
+
+  <!-- ==================== LEFT SECTION: TRIPLE MATRIX COLUMNS & TYPOGRAPHY ==================== -->
+  <!-- Triple-Column Animated Cyber-Matrix Stream -->
+  <g clip-path="url(#triple-matrix-clip)" filter="url(#soft-glow)">
+    <!-- Dark Track Background -->
+    <rect x="64" y="96" width="60" height="196" rx="6" fill="#0B0F1A" fill-opacity="0.85" />
+
+    <!-- Column 1 (Left: Cyan/Violet stream) -->
+    <g class="matrix-scroll-1 font-mono" font-size="8" font-weight="700" text-anchor="middle">
+      <line x1="76" y1="96" x2="76" y2="292" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="4 8 2 12" opacity="0.5" />
+      <text x="76" y="110" class="theme-shift-1">1</text>
+      <text x="76" y="130" fill="#2DD4BF">0</text>
+      <text x="76" y="150" class="theme-shift-2">F</text>
+      <text x="76" y="170" fill="#A855F7">9</text>
+      <text x="76" y="190" class="theme-shift-1">A</text>
+      <text x="76" y="210" fill="#38BDF8">0</text>
+      <text x="76" y="230" class="theme-shift-2">1</text>
+      <text x="76" y="250" fill="#2DD4BF">Z</text>
+      <text x="76" y="270" class="theme-shift-1">X</text>
+      <text x="76" y="290" fill="#A3E635">E</text>
+
+      <!-- Tile Loop (+196px) -->
+      <line x1="76" y1="292" x2="76" y2="488" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="4 8 2 12" opacity="0.5" />
+      <text x="76" y="306" class="theme-shift-1">1</text>
+      <text x="76" y="326" fill="#2DD4BF">0</text>
+      <text x="76" y="346" class="theme-shift-2">F</text>
+      <text x="76" y="366" fill="#A855F7">9</text>
+      <text x="76" y="386" class="theme-shift-1">A</text>
+      <text x="76" y="406" fill="#38BDF8">0</text>
+      <text x="76" y="426" class="theme-shift-2">1</text>
+      <text x="76" y="446" fill="#2DD4BF">Z</text>
+      <text x="76" y="466" class="theme-shift-1">X</text>
+      <text x="76" y="484" fill="#A3E635">E</text>
+    </g>
+
+    <!-- Column 2 (Center: Lime/Teal stream, reverse scroll) -->
+    <g class="matrix-scroll-2 font-mono" font-size="8" font-weight="700" text-anchor="middle">
+      <line x1="94" y1="96" x2="94" y2="292" stroke="url(#matrix-grad)" stroke-width="2" stroke-dasharray="6 4 10 3" opacity="0.65" />
+      <text x="94" y="105" fill="#A3E635">0</text>
+      <text x="94" y="125" class="theme-shift-1">1</text>
+      <text x="94" y="145" fill="#38BDF8">C</text>
+      <text x="94" y="165" class="theme-shift-2">8</text>
+      <text x="94" y="185" fill="#A3E635">3</text>
+      <text x="94" y="205" class="theme-shift-1">F</text>
+      <text x="94" y="225" fill="#2DD4BF">0</text>
+      <text x="94" y="245" class="theme-shift-2">9</text>
+      <text x="94" y="265" fill="#A855F7">A</text>
+      <text x="94" y="285" fill="#A3E635">1</text>
+
+      <!-- Tile Loop (+196px) -->
+      <line x1="94" y1="292" x2="94" y2="488" stroke="url(#matrix-grad)" stroke-width="2" stroke-dasharray="6 4 10 3" opacity="0.65" />
+      <text x="94" y="301" fill="#A3E635">0</text>
+      <text x="94" y="321" class="theme-shift-1">1</text>
+      <text x="94" y="341" fill="#38BDF8">C</text>
+      <text x="94" y="361" class="theme-shift-2">8</text>
+      <text x="94" y="381" fill="#A3E635">3</text>
+      <text x="94" y="401" class="theme-shift-1">F</text>
+      <text x="94" y="421" fill="#2DD4BF">0</text>
+      <text x="94" y="441" class="theme-shift-2">9</text>
+      <text x="94" y="461" fill="#A855F7">A</text>
+      <text x="94" y="481" fill="#A3E635">1</text>
+    </g>
+
+    <!-- Column 3 (Right: Violet/Cyan stream) -->
+    <g class="matrix-scroll-1 font-mono" font-size="8" font-weight="700" text-anchor="middle" style="animation-duration: 4.2s;">
+      <line x1="112" y1="96" x2="112" y2="292" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="2 10 5 7" opacity="0.5" />
+      <text x="112" y="115" fill="#A855F7">7</text>
+      <text x="112" y="135" class="theme-shift-2">E</text>
+      <text x="112" y="155" fill="#2DD4BF">4</text>
+      <text x="112" y="175" class="theme-shift-1">2</text>
+      <text x="112" y="195" fill="#38BDF8">F</text>
+      <text x="112" y="215" class="theme-shift-2">0</text>
+      <text x="112" y="235" fill="#A3E635">A</text>
+      <text x="112" y="255" class="theme-shift-1">9</text>
+      <text x="112" y="275" fill="#2DD4BF">1</text>
+      <text x="112" y="290" fill="#A855F7">0</text>
+
+      <!-- Tile Loop (+196px) -->
+      <line x1="112" y1="292" x2="112" y2="488" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="2 10 5 7" opacity="0.5" />
+      <text x="112" y="311" fill="#A855F7">7</text>
+      <text x="112" y="331" class="theme-shift-2">E</text>
+      <text x="112" y="351" fill="#2DD4BF">4</text>
+      <text x="112" y="371" class="theme-shift-1">2</text>
+      <text x="112" y="391" fill="#38BDF8">F</text>
+      <text x="112" y="411" class="theme-shift-2">0</text>
+      <text x="112" y="431" fill="#A3E635">A</text>
+      <text x="112" y="451" class="theme-shift-1">9</text>
+      <text x="112" y="471" fill="#2DD4BF">1</text>
+      <text x="112" y="486" fill="#A855F7">0</text>
+    </g>
+
+    <!-- Three fast, independently phased rain highlights; all travel downward. -->
+    <g id="matrix-drop-left" class="matrix-drop-1">
+      <rect x="74.6" y="96" width="2.8" height="34" rx="1.4" fill="url(#matrix-drop)" />
+      <circle cx="76" cy="130" r="1.9" fill="#F0FDFA" filter="url(#soft-glow)" />
+    </g>
+    <g id="matrix-drop-center" class="matrix-drop-2">
+      <rect x="92.4" y="96" width="3.2" height="42" rx="1.6" fill="url(#matrix-drop)" />
+      <circle cx="94" cy="138" r="2.1" fill="#FFFFFF" filter="url(#soft-glow)" />
+    </g>
+    <g id="matrix-drop-right" class="matrix-drop-3">
+      <rect x="110.7" y="96" width="2.6" height="28" rx="1.3" fill="url(#matrix-drop)" />
+      <circle cx="112" cy="124" r="1.8" fill="#ECFEFF" filter="url(#soft-glow)" />
+    </g>
+  </g>
+
+  <!-- Greeting + Blinking Terminal Cursor -->
+  <g transform="translate(142, 114)">
+    <text class="font-mono" font-size="13" font-weight="600" fill="#A3E635" letter-spacing="3.5">G'DAY, INTERNET</text>
+    <rect class="cursor-blink" x="168" y="-11" width="7" height="13" fill="#A3E635" />
+  </g>
+
+  <!-- Primary Identity: ISAAK a.k.a. pseudozac -->
+  <g transform="translate(140, 198)">
+    <text class="font-sans" font-size="78" font-weight="900" fill="#F8FAFC" letter-spacing="1.5">ISAAK</text>
+    <text x="275" y="-2" class="font-mono" font-size="21" font-weight="600" fill="#C4B5FD" letter-spacing="0.8" filter="url(#glow)">a.k.a. pseudozac</text>
+  </g>
+
+  <!-- Sub-discipline Line -->
+  <text x="142" y="242" class="font-mono" font-size="13.5" font-weight="500" fill="#E2E8F0" letter-spacing="3.2">
+    CYBERSECURITY <tspan fill="#475569">/</tspan> THREAT HUNTING <tspan fill="#475569">/</tspan> SECURITY ENGINEERING
+  </text>
+
+  <!-- Animated Slower 0% -> 75% -> (+1 increments) -> 100% Cyber Loading Bar -->
+  <g>
+    <!-- Background Track (398px total width) -->
+    <rect x="142" y="263" width="398" height="2.5" rx="1.25" fill="#1E293B" />
+    <!-- Animated Neon Progress Fill -->
+    <rect class="progress-fill" x="142" y="262.75" width="0" height="3" rx="1.5" fill="url(#load-grad)" filter="url(#soft-glow)" />
+
+    <!-- Clipped Vertical Ticker Window for 0% -> 25% -> 50% -> 75..100% -->
+    <g transform="translate(550, 256)" clip-path="url(#pct-window)">
+      <g class="pct-strip font-mono" font-size="10.5" font-weight="700">
+        <text x="0" y="12" fill="#64748B">0%</text>
+        <text x="0" y="28" fill="#2DD4BF">25%</text>
+        <text x="0" y="44" fill="#38BDF8">50%</text>
+        <text x="0" y="60" fill="#C084FC">75%</text>
+        <text x="0" y="76" fill="#C084FC">76%</text>
+        <text x="0" y="92" fill="#C084FC">77%</text>
+        <text x="0" y="108" fill="#C084FC">78%</text>
+        <text x="0" y="124" fill="#C084FC">79%</text>
+        <text x="0" y="140" fill="#A855F7">80%</text>
+        <text x="0" y="156" fill="#A855F7">81%</text>
+        <text x="0" y="172" fill="#A855F7">82%</text>
+        <text x="0" y="188" fill="#A855F7">83%</text>
+        <text x="0" y="204" fill="#A855F7">84%</text>
+        <text x="0" y="220" fill="#2DD4BF">85%</text>
+        <text x="0" y="236" fill="#2DD4BF">86%</text>
+        <text x="0" y="252" fill="#2DD4BF">87%</text>
+        <text x="0" y="268" fill="#2DD4BF">88%</text>
+        <text x="0" y="284" fill="#2DD4BF">89%</text>
+        <text x="0" y="300" fill="#4ADE80">90%</text>
+        <text x="0" y="316" fill="#4ADE80">91%</text>
+        <text x="0" y="332" fill="#4ADE80">92%</text>
+        <text x="0" y="348" fill="#4ADE80">93%</text>
+        <text x="0" y="364" fill="#4ADE80">94%</text>
+        <text x="0" y="380" fill="#A3E635">95%</text>
+        <text x="0" y="396" fill="#A3E635">96%</text>
+        <text x="0" y="412" fill="#A3E635">97%</text>
+        <text x="0" y="428" fill="#A3E635">98%</text>
+        <text x="0" y="444" fill="#A3E635">99%</text>
+        <text x="0" y="460" fill="#A3E635" filter="url(#soft-glow)">100%</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Action Tagline -->
+  <text x="142" y="290" class="font-mono" font-size="12.5" font-weight="600" fill="#2DD4BF" letter-spacing="2.8">
+    INVESTIGATE <tspan fill="#A3E635">·</tspan> THREAT HUNT <tspan fill="#A3E635">·</tspan> AUTOMATE
+  </text>
+
+  <!-- ==================== RIGHT SECTION: CYBER INVESTIGATOR & RIG ==================== -->
+  <!-- Ambient Backlight -->
+  <circle cx="935" cy="195" r="165" fill="url(#rig-glow)" />
+
+  <!-- Background Floating Holo-Terminal Card (Left of Hacker) -->
+  <g transform="translate(765, 92)">
+    <rect width="110" height="74" rx="6" fill="#090D16" fill-opacity="0.85" stroke="#1E293B" stroke-width="1.2" />
+    <!-- Terminal Top Bar -->
+    <circle cx="10" cy="10" r="2" fill="#F472B6" />
+    <circle cx="18" cy="10" r="2" fill="#A3E635" />
+    <circle cx="26" cy="10" r="2" fill="#2DD4BF" />
+    <text x="98" y="13" text-anchor="end" class="font-mono" font-size="7" fill="#64748B">IOC_SCAN</text>
+    <line x1="0" y1="18" x2="110" y2="18" stroke="#1E293B" stroke-width="1" />
+    <!-- Animated Code Lines -->
+    <rect class="code-1" x="10" y="27" width="54" height="3.5" rx="1.5" fill="#2DD4BF" />
+    <rect class="code-2" x="10" y="37" width="78" height="3.5" rx="1.5" fill="#A855F7" />
+    <rect class="code-3" x="10" y="47" width="42" height="3.5" rx="1.5" fill="#A3E635" />
+    <rect class="code-1" x="58" y="47" width="24" height="3.5" rx="1.5" fill="#64748B" />
+    <rect class="code-2" x="10" y="57" width="66" height="3.5" rx="1.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Background Network Graph (Target of the Magnifying Glass on Right) -->
+  <g stroke="#334155" stroke-width="1.2" opacity="0.85">
+    <line x1="975" y1="115" x2="1018" y2="132" />
+    <line x1="1018" y1="132" x2="1055" y2="108" />
+    <line x1="1018" y1="132" x2="1038" y2="172" />
+    <line x1="1018" y1="132" x2="982" y2="162" />
+  </g>
+  <circle cx="975" cy="115" r="3.5" fill="#2DD4BF" />
+  <circle cx="1055" cy="108" r="3.5" fill="#A3E635" />
+  <circle cx="1038" cy="172" r="3.5" fill="#38BDF8" />
+  <circle cx="982" cy="162" r="3.5" fill="#C084FC" />
+  <!-- Pulsing Suspicious Threat Node Being Investigated -->
+  <circle class="anomaly-node" cx="1018" cy="132" r="5.5" fill="#F43F5E" filter="url(#glow)" />
+  <text x="1030" y="135" class="font-mono" font-size="8" font-weight="700" fill="#F43F5E" letter-spacing="1">0xBAD</text>
+
+  <!-- ==================== THE HACKER / INVESTIGATOR SILHOUETTE ==================== -->
+  <!-- Torso / Hoodie Shoulders -->
+  <path d="M 835 285 C 838 228, 868 202, 912 202 C 956 202, 986 228, 989 285 Z" fill="#0B0F1A" stroke="#2DD4BF" stroke-width="1.5" stroke-opacity="0.55" />
+  <!-- Hoodie Inner Collar Seam Lines -->
+  <path d="M 885 206 L 912 248 L 939 206" fill="none" stroke="#A855F7" stroke-width="1.3" stroke-opacity="0.6" />
+
+  <!-- Animated Hooded Head + Glowing Cyber Visor -->
+  <g class="hacker-head">
+    <!-- Outer Hood Shape -->
+    <path d="M 912 104 C 874 104, 864 138, 870 176 C 875 196, 892 210, 912 210 C 932 210, 949 196, 954 176 C 960 138, 950 104, 912 104 Z" fill="#090D16" stroke="#A855F7" stroke-width="1.6" />
+    <!-- Inner Shadowed Face Void -->
+    <path d="M 912 118 C 885 118, 878 144, 883 172 C 887 188, 898 198, 912 198 C 926 198, 937 188, 941 172 C 946 144, 939 118, 912 118 Z" fill="#05070B" />
+    <!-- Glowing Cyberpunk Tactical Visor / Glasses -->
+    <path d="M 888 152 L 910 156 L 936 152 L 932 163 L 910 166 L 892 163 Z" fill="#2DD4BF" filter="url(#glow)" />
+    <line x1="893" y1="155" x2="907" y2="157" stroke="#FFFFFF" stroke-width="1.2" />
+    <line x1="917" y1="157" x2="931" y2="155" stroke="#FFFFFF" stroke-width="1.2" />
+  </g>
+
+  <!-- ==================== CLEAN FLOATING CYBER-MAGNIFYING GLASS ==================== -->
+  <g class="investigator-loupe">
+    <!-- Magnifying Glass Outer Rim -->
+    <circle cx="1005" cy="140" r="32" fill="url(#lens-glass)" stroke="#2DD4BF" stroke-width="2.2" filter="url(#soft-glow)" />
+
+    <!-- Rotating Target Reticle Inside the Lens -->
+    <g class="reticle-spin">
+      <circle cx="1005" cy="140" r="23" fill="none" stroke="#A3E635" stroke-width="1.2" stroke-dasharray="14 8 6 8" opacity="0.9" />
+      <line x1="1005" y1="113" x2="1005" y2="121" stroke="#2DD4BF" stroke-width="1.2" />
+      <line x1="1005" y1="159" x2="1005" y2="167" stroke="#2DD4BF" stroke-width="1.2" />
+      <line x1="978" y1="140" x2="986" y2="140" stroke="#2DD4BF" stroke-width="1.2" />
+      <line x1="1024" y1="140" x2="1032" y2="140" stroke="#2DD4BF" stroke-width="1.2" />
+    </g>
+
+    <!-- Lens Specular Reflection Glint -->
+    <path d="M 986 123 A 22 22 0 0 1 1016 117" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.55" />
+
+    <!-- Clean Tactical Loupe Handle -->
+    <line x1="1028" y1="163" x2="1052" y2="187" stroke="#0F172A" stroke-width="7" stroke-linecap="round" />
+    <line x1="1028" y1="163" x2="1052" y2="187" stroke="#A3E635" stroke-width="2.5" stroke-linecap="round" filter="url(#soft-glow)" />
+    <circle cx="1028" cy="163" r="3.5" fill="#2DD4BF" />
+  </g>
+
+  <!-- ==================== TYPING HAND + LAPTOP TERMINAL RIG ==================== -->
+  <!-- Holographic Light Beam Projecting Up from Laptop -->
+  <polygon points="848,236 932,236 958,175 822,175" fill="url(#screen-beam)" />
+
+  <!-- Animated Left Hand Tapping/Typing on Keyboard -->
+  <g class="typing-hand">
+    <!-- Forearm & Hand Silhouette -->
+    <path d="M 835 268 Q 842 252, 858 262" fill="none" stroke="#0F172A" stroke-width="8" stroke-linecap="round" />
+    <!-- Neon Cyber Fingers Tapping -->
+    <circle cx="854" cy="264" r="3.5" fill="#A3E635" filter="url(#soft-glow)" />
+    <circle cx="863" cy="266" r="3.5" fill="#2DD4BF" filter="url(#soft-glow)" />
+    <circle cx="871" cy="265" r="3" fill="#A3E635" filter="url(#soft-glow)" />
+  </g>
+
+  <!-- Keystroke Binary/Data Sparks Rising from Fingers -->
+  <text class="spark-1 font-mono" x="844" y="252" font-size="9" font-weight="700" fill="#A3E635">01</text>
+  <text class="spark-2 font-mono" x="862" y="248" font-size="9" font-weight="700" fill="#2DD4BF">>_</text>
+
+  <!-- Angled Cyberpunk Laptop Lid (Facing Analyst) -->
+  <g>
+    <!-- Laptop Screen Chassis -->
+    <polygon points="852,232 938,232 948,285 842,285" fill="#090D16" stroke="#2DD4BF" stroke-width="1.8" filter="url(#soft-glow)" />
+    <!-- Laptop Base / Mechanical Keyboard Deck -->
+    <rect x="812" y="283" width="168" height="6" rx="3" fill="#1E293B" stroke="#A855F7" stroke-width="1" />
+    
+    <!-- Angular, path-drawn IZ Cyber-Core laptop badge -->
+    <g transform="translate(895 259) scale(0.56)">
+
+    <g id="iz-cyber-core" role="img" aria-label="IZ Cyber-Core monogram">
+      <path class="iz-halo" d="M0-25 25-12.5V12.5L0 25-25 12.5V-12.5Z"
+            fill="#070B12" stroke="#2DD4BF" stroke-width="1.8" filter="url(#soft-glow)" />
+      <path d="M0-21 21-10.5V10.5L0 21-21 10.5V-10.5Z"
+            fill="#080D17" stroke="#5B367C" stroke-width="0.7" />
+      <path class="iz-circuit" d="M0-25 25-12.5V12.5L0 25-25 12.5V-12.5Z"
+            fill="none" stroke="#B9FF58" stroke-width="1.5" stroke-dasharray="12 33" />
+      <!-- Short circuit contacts and cut corners give the core its own silhouette. -->
+      <path d="M-29-6H-25M-29 0H-25M25 0H29M25 6H29M-5-27H5M-5 27H5"
+            fill="none" stroke="#A855F7" stroke-width="1.2" />
+      <g clip-path="url(#iz-core-clip)">
+        <path d="M-23-15H23M-23-3H23M-23 9H23M-23 18H23"
+              stroke="#2DD4BF" stroke-opacity="0.09" stroke-width="0.7" />
+        <g class="iz-glyph-glitch">
+          <use href="#iz-glyph" fill="url(#iz-metal)" />
+          <use class="iz-echo-cyan" href="#iz-glyph" fill="#38BDF8" transform="translate(-2 0.5)" opacity="0" />
+          <use class="iz-echo-violet" href="#iz-glyph" fill="#D56EFF" transform="translate(2 -0.5)" opacity="0" />
+        </g>
+        <g class="iz-scanline">
+          <rect x="-24" y="-28" width="48" height="9" fill="url(#iz-scan)" />
+          <path d="M-24-19H24" stroke="#D9FF8C" stroke-width="0.5" opacity="0.75" />
+        </g>
+        <path class="iz-scan-glitch" d="M-20-5H4M5 5H23M-23 12H-7"
+              stroke="#F0ABFC" stroke-width="1.1" opacity="0" />
+      </g>
+      <circle class="iz-status" cx="0" cy="-18" r="1.1" fill="#D9FF8C" />
+    </g>
+    </g>
+  </g>
+
+  <!-- Desk Horizon Line -->
+  <line x1="755" y1="289" x2="1085" y2="289" stroke="url(#wave-grad)" stroke-width="2" />
+  <text x="895" y="306" text-anchor="middle" class="font-mono" font-size="9.5" fill="#64748B" letter-spacing="2.5">[ ACTIVE_THREAT_HUNT // NODE_0x495A ]</text>
+</svg>
