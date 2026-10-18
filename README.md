@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.instagram.com/i_z_a_a_c/" title="Instagram"><img src="./assets/social-instagram.svg" alt="Instagram" width="46" height="46" /></a>
+  <a href="https://www.instagram.com/i_z_a_a_c/" title="Instagram"><img src="./assets/social-instagram.svg" alt="Instagram" width="40" height="40" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/isaak99/" title="LinkedIn"><img src="./assets/social-linkedin.svg" alt="LinkedIn" width="46" height="46" /></a>
+  <a href="https://www.linkedin.com/in/isaak99/" title="LinkedIn"><img src="./assets/social-linkedin.svg" alt="LinkedIn" width="40" height="40" /></a>
   &nbsp;
-  <a href="https://github.com/pseudozac" title="GitHub"><img src="./assets/social-github.svg" alt="GitHub" width="46" height="46" /></a>
+  <a href="https://github.com/pseudozac" title="GitHub"><img src="./assets/social-github.svg" alt="GitHub" width="40" height="40" /></a>
 </p>
 
 # Hey there, g'day! I'm Isaak <sub>a.k.a. [pseudozac](https://github.com/pseudozac)</sub> 👋
@@ -19,7 +19,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 - 🛡️ **Into:** threat hunting, incident response, and security automation
 - 🌙 **Off duty:** photography, gaming, travel, anime, music, literature, and films
 
-<h2><img src="./assets/section-projects.svg" alt="01 / Project notebook" width="100%" /></h2>
+## <img src="./assets/section-projects.svg" alt="01" width="30" height="26" /> Project notebook
 
 <details>
   <summary><strong><code>projects /</code> Four prototypes in progress</strong> · expand the notebook</summary>
@@ -35,7 +35,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
 </details>
 
-<h2><img src="./assets/section-tools.svg" alt="02 / My Favorite Tools" width="100%" /></h2>
+## <img src="./assets/section-tools.svg" alt="02" width="30" height="26" /> My Favorite Tools
 
 <details open>
   <summary><strong><code>toolkit /</code> Tools and platforms from my security work</strong></summary>
@@ -78,7 +78,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
 </details>
 
-<h2><img src="./assets/section-background.svg" alt="03 / Background" width="100%" /></h2>
+## <img src="./assets/section-background.svg" alt="03" width="30" height="26" /> Background
 
 <details>
   <summary><strong><code>background /</code> Certifications and education</strong> · expand the record</summary>
@@ -92,5 +92,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 </details>
 
 <p align="center">
-  <img src="./assets/profile-footer.svg" alt="Stay curious. Follow the evidence." width="100%" />
+  <img src="./assets/profile-footer.svg" alt="" width="100%" />
+  <br/>
+  <sub><samp>STAY CURIOUS. FOLLOW THE EVIDENCE.</samp></sub>
 </p>
