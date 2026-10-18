@@ -38,42 +38,42 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 ## <img src="./assets/section-tools.svg" alt="02" width="30" height="26" /> My Favorite Tools
 
 <details open>
-  <summary><strong><code>toolkit /</code> Tools and platforms from my security work</strong></summary>
+  <summary><strong><code>toolkit /</code> Tools and platforms I’ve worked with</strong></summary>
 
   <br/>
 
   ### `01` SOC & Threat Intelligence
 
   <p>
-    <img src="https://img.shields.io/badge/%F0%9F%94%8E_Microsoft_Sentinel-101722.svg?style=flat-square" alt="Microsoft Sentinel" />
-    <img src="https://img.shields.io/badge/Splunk_Enterprise-101722.svg?style=flat-square&amp;logo=splunk&amp;logoColor=5ef5d2" alt="Splunk Enterprise" />
-    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Securonix-101722.svg?style=flat-square" alt="Securonix" />
-    <img src="https://img.shields.io/badge/%F0%9F%A7%AD_Recorded_Future-101722.svg?style=flat-square" alt="Recorded Future" />
-    <img src="https://img.shields.io/badge/%F0%9F%95%B8%EF%B8%8F_Vectra_AI-101722.svg?style=flat-square" alt="Vectra AI" />
+    <img src="./assets/tools/sentinel.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Sentinel<br/>
+    <img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;Enterprise<br/>
+    <img src="./assets/tools/securonix.svg" alt="" width="26" height="26" />&nbsp;Securonix<br/>
+    <img src="./assets/tools/recorded-future.svg" alt="" width="26" height="26" />&nbsp;Recorded&nbsp;Future<br/>
+    <img src="./assets/tools/vectra.svg" alt="" width="26" height="26" />&nbsp;Vectra&nbsp;AI<br/>
   </p>
 
   ### `02` Endpoint, Cloud & Network
 
   <p>
-    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Microsoft_Defender_XDR-101722.svg?style=flat-square" alt="Microsoft Defender XDR" />
-    <img src="https://img.shields.io/badge/%F0%9F%A6%85_CrowdStrike_Falcon-101722.svg?style=flat-square" alt="CrowdStrike Falcon" />
-    <img src="https://img.shields.io/badge/Trend_Micro-101722.svg?style=flat-square&amp;logo=trendmicro&amp;logoColor=b494ff" alt="Trend Micro" />
-    <img src="https://img.shields.io/badge/%E2%98%81%EF%B8%8F_AWS_GuardDuty-101722.svg?style=flat-square" alt="AWS GuardDuty" />
-    <img src="https://img.shields.io/badge/Wireshark-101722.svg?style=flat-square&amp;logo=wireshark&amp;logoColor=b494ff" alt="Wireshark" />
-    <img src="https://img.shields.io/badge/%F0%9F%94%90_Zscaler-101722.svg?style=flat-square" alt="Zscaler" />
-    <img src="https://img.shields.io/badge/Cloudflare-101722.svg?style=flat-square&amp;logo=cloudflare&amp;logoColor=b494ff" alt="Cloudflare" />
-    <img src="https://img.shields.io/badge/Akamai_DDoS_Protection-101722.svg?style=flat-square&amp;logo=akamai&amp;logoColor=b494ff" alt="Akamai DDoS Protection" />
+    <img src="./assets/tools/defender.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Defender&nbsp;XDR<br/>
+    <img src="./assets/tools/crowdstrike.svg" alt="" width="26" height="26" />&nbsp;CrowdStrike&nbsp;Falcon<br/>
+    <img src="./assets/tools/trend-micro.svg" alt="" width="26" height="26" />&nbsp;Trend&nbsp;Micro<br/>
+    <img src="./assets/tools/guardduty.svg" alt="" width="26" height="26" />&nbsp;AWS&nbsp;GuardDuty<br/>
+    <img src="./assets/tools/wireshark.svg" alt="" width="26" height="26" />&nbsp;Wireshark<br/>
+    <img src="./assets/tools/zscaler.svg" alt="" width="26" height="26" />&nbsp;Zscaler<br/>
+    <img src="./assets/tools/cloudflare.svg" alt="" width="26" height="26" />&nbsp;Cloudflare<br/>
+    <img src="./assets/tools/akamai.svg" alt="" width="26" height="26" />&nbsp;Akamai&nbsp;DDoS&nbsp;Protection<br/>
   </p>
 
   ### `03` Network Security & Automation
 
   <p>
-    <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Check_Point-101722.svg?style=flat-square" alt="Check Point" />
-    <img src="https://img.shields.io/badge/Fortinet-101722.svg?style=flat-square&amp;logo=fortinet&amp;logoColor=c2f970" alt="Fortinet" />
-    <img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F_Skybox_Security-101722.svg?style=flat-square" alt="Skybox Security" />
-    <img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_BackBox_Automation-101722.svg?style=flat-square" alt="BackBox Automation" />
-    <img src="https://img.shields.io/badge/Palo_Alto_Cortex_XSOAR-101722.svg?style=flat-square&amp;logo=paloaltonetworks&amp;logoColor=c2f970" alt="Palo Alto Cortex XSOAR" />
-    <img src="https://img.shields.io/badge/Splunk_SOAR-101722.svg?style=flat-square&amp;logo=splunk&amp;logoColor=c2f970" alt="Splunk SOAR" />
+    <img src="./assets/tools/checkpoint.svg" alt="" width="26" height="26" />&nbsp;Check&nbsp;Point<br/>
+    <img src="./assets/tools/fortinet.svg" alt="" width="26" height="26" />&nbsp;Fortinet<br/>
+    Skybox&nbsp;Security&nbsp;<sub>(legacy)</sub><br/>
+    <img src="./assets/tools/backbox.svg" alt="" width="26" height="26" />&nbsp;BackBox&nbsp;Automation<br/>
+    <img src="./assets/tools/paloalto.svg" alt="" width="26" height="26" />&nbsp;Palo&nbsp;Alto&nbsp;Cortex&nbsp;XSOAR<br/>
+    <img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;SOAR<br/>
   </p>
 
 </details>
@@ -96,3 +96,4 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
   <br/>
   <sub><samp>STAY CURIOUS. FOLLOW THE EVIDENCE.</samp></sub>
 </p>
+
