@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 92" width="800" height="92" role="img" aria-labelledby="title desc">
+<title id="title">Stay curious. Follow the evidence.</title>
+<desc id="desc">A neon circuit line closes Isaak's profile.</desc>
+<style>@keyframes trace{to{stroke-dashoffset:-100}}.trace{animation:trace 6s linear infinite}@media(prefers-reduced-motion:reduce){.trace{animation:none}}</style>
+<rect width="800" height="92" rx="8" fill="#0b101b"/>
+<path d="M0 46h65l14-14h35l28 28h40l14-14h34m340 0h35l14-14h35l28 28h40l14-14h69" fill="none" stroke="#3d3559"/>
+<path class="trace" d="M0 46h65l14-14h35l28 28h40l14-14h34m340 0h35l14-14h35l28 28h40l14-14h69" fill="none" stroke="#5ef5d2" stroke-width="2" stroke-dasharray="6 44"/>
+<text x="400" y="42" text-anchor="middle" font-family="monospace" font-size="22" letter-spacing="2" fill="#dbe7ff">STAY CURIOUS.</text>
+<text x="400" y="65" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="2" fill="#b494ff">FOLLOW THE EVIDENCE.</text>
+</svg>
