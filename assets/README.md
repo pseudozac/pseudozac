@@ -1,6 +1,6 @@
 # Profile artwork
 
-The main banner is the owner's revised gemini-svg.svg artwork, validated as SVG and copied to isaak-iz-cyber-banner.svg. It retains the revised character, scrolling code, fading bottom edge, IZ badge, and reduced-motion styles.
+The main banner is the isaak-iz-cyber-banner.svg. It retains the revised character, scrolling code, fading bottom edge, IZ badge, and reduced-motion styles.
 
 Section number accents, unframed social marks, circuit divider, and tool mark wrappers are repository-local SVGs. They contain no scripts, trackers, remote fonts, or external image references. Animations support reduced motion. Section headings and tool names are native Markdown/HTML text.
 
