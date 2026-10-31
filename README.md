@@ -85,7 +85,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 </details>
 
 <p align="center">
-  <img src="./assets/profile-footer.svg" alt="" width="100%" />
+  <img src="./assets/profile-footer-walking.svg" alt="Two original robots meet and greet: an articulated big-eyed biped and a visor-faced robot rolling on one wheel" width="100%" />
   <br/>
   <sub><samp>STAY CURIOUS. FOLLOW THE EVIDENCE.</samp></sub>
 </p>

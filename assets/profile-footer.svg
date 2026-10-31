@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="800" height="24">
-<style>@keyframes trace{to{stroke-dashoffset:-100}}.trace{animation:trace 7s linear infinite}@media(prefers-reduced-motion:reduce){.trace{animation:none}}</style>
-<path d="M0 12h245l8-8h18l16 16h26l8-8h158l8-8h18l16 16h26l8-8h245" fill="none" stroke="#9b65d7" stroke-opacity=".3"/>
-<path class="trace" d="M0 12h245l8-8h18l16 16h26l8-8h158l8-8h18l16 16h26l8-8h245" fill="none" stroke="#00b8b4" stroke-width="1.2" stroke-dasharray="4 46"/>
-</svg>
