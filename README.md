@@ -85,10 +85,6 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 </details>
 
 <p align="center">
-  <img src="./assets/footer-chibi.svg" alt="Animated cyberpunk chibi mascot" width="112" height="118" />
-</p>
-
-<p align="center">
   <img src="./assets/profile-footer.svg" alt="" width="100%" />
   <br/>
   <sub><samp>STAY CURIOUS. FOLLOW THE EVIDENCE.</samp></sub>
