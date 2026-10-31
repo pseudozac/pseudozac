@@ -85,7 +85,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 </details>
 
 <p align="center">
-  <img src="./assets/profile-footer-pip-luma.svg" alt="Pip and Luma, two original cute robots walking in to greet across a comfortable gap and return" width="100%" />
+  <img src="./assets/profile-footer-duo-v2.svg" alt="Two distinct original robots, a camera-headed workshop walker and a sleek tapered scout, walking in to greet across a wide gap" width="100%" />
   <br/>
   <sub><samp>STAY CURIOUS. FOLLOW THE EVIDENCE.</samp></sub>
 </p>
