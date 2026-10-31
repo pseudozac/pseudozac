@@ -33,6 +33,8 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
   These are prototypes; the project descriptions don’t imply live integrations or production deployment.
 
+  **More builds:** [PsFi · Personal Finance Dashboard](https://github.com/pseudozac/psfi-finance-control-center) · [Sudoku Solver](https://github.com/pseudozac/sudoku)
+
 </details>
 
 ## <img src="./assets/section-tools.svg" alt="02" width="30" height="26" /> My Favorite Tools
