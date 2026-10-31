@@ -89,11 +89,16 @@
   </g>
  </g>
  <path d="M37 52h8v9h-8z" fill="url(#violet-side)" stroke="#9b65d7" stroke-width="1"/>
+  <path d="M29 58h22q5 0 6 5l2 13q-1 6-7 6H27q-6 0-7-6l2-13q1-5 7-5z" fill="url(#violet-shell)" stroke="#d8ccff" stroke-width="1.6"/>
+ <path d="M31 61h18q3 0 4 3v11H26V64q1-3 5-3z" fill="url(#violet-side)" opacity=".9"/>
+ <circle cx="40" cy="68" r="6" fill="#171827" stroke="#56ded8" stroke-width="1.2"/>
+ <circle cx="40" cy="68" r="3.3" fill="#56ded8"/><circle cx="39" cy="67" r="1" fill="#fff"/>
+ <path d="M35 77h10m-8 3h6" stroke="#d8ccff" stroke-opacity=".85" stroke-width="1" stroke-linecap="round"/>
  <g transform="translate(22 62)"><g class="swing">
   <path d="M0 0-6 8l3 3 7-7" fill="none" stroke="#66518f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="-6" cy="8" r="2.4" fill="#56ded8" stroke="#b9a3f2" stroke-width=".8"/>
   <path d="M-3 11-2 15q2 3 4 0l2-3m-4 3-1 3m2-3 2 2" fill="none" stroke="#293752" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="14" cy="0" r=".1" fill="transparent"/>
+  <circle cx="6" cy="0" r=".1" fill="transparent"/>
  </g></g>
  <g transform="translate(58 62)"><g class="wave">
   <path d="M0 0 4 8 2 12" fill="none" stroke="#66518f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -101,12 +106,7 @@
   <path d="M2 12 1 15m1-3 3 2m-3-2-2 3" fill="none" stroke="#293752" stroke-width="3.4" stroke-linecap="round"/>
   <circle cx="-4" cy="0" r=".1" fill="transparent"/>
  </g></g>
- <path d="M25 58h30q5 0 6 5l2 13q-1 6-7 6H23q-6 0-7-6l2-13q1-5 7-5z" fill="url(#violet-shell)" stroke="#d8ccff" stroke-width="1.6"/>
- <path d="M28 61h24q3 0 4 3v11H24V64q1-3 4-3z" fill="url(#violet-side)" opacity=".9"/>
- <circle cx="40" cy="68" r="6" fill="#171827" stroke="#56ded8" stroke-width="1.2"/>
- <circle cx="40" cy="68" r="3.3" fill="#56ded8"/><circle cx="39" cy="67" r="1" fill="#fff"/>
- <path d="M35 77h10m-8 3h6" stroke="#d8ccff" stroke-opacity=".85" stroke-width="1" stroke-linecap="round"/>
- <rect x="7" y="29" width="11" height="15" rx="5.5" fill="url(#violet-side)" stroke="#b9a3f2" stroke-width="1.5"/>
+<rect x="7" y="29" width="11" height="15" rx="5.5" fill="url(#violet-side)" stroke="#b9a3f2" stroke-width="1.5"/>
  <rect x="62" y="29" width="11" height="15" rx="5.5" fill="url(#violet-side)" stroke="#b9a3f2" stroke-width="1.5"/>
  <path d="M26 13h28q13 0 13 12v19q0 12-13 12H26q-14 0-14-12V25q0-12 14-12z" fill="url(#violet-shell)" stroke="#e3d8ff" stroke-width="1.8"/>
  <path d="M20 24q20-5 40 0v20q-19 8-40 0z" fill="url(#face)" stroke="#8875b4" stroke-width="1.2"/>
@@ -138,23 +138,23 @@
  </g>
  <path d="M29 52h14v7H29z" fill="url(#teal-side)" stroke="#56a9a7" stroke-width="1"/>
  <path d="M29 68h14l4 12H25z" fill="#16253a" stroke="#56ded8" stroke-width="1.4" stroke-linejoin="round"/>
- <g transform="translate(15 58)"><g class="swing">
+  <path d="M26 55h18q7 0 9 6l2 6q0 7-9 8H21q-8-1-7-7l2-7q1-6 10-6z" fill="url(#teal-shell)" stroke="#e2fff9" stroke-width="1.7"/>
+ <path d="M27 58h16q4 0 5 5l1 6H20l2-7q1-4 5-4z" fill="url(#teal-side)" opacity=".55"/>
+ <circle cx="36" cy="66" r="7.5" fill="#14263b" stroke="#d39cff" stroke-width="1.6"/>
+ <circle cx="36" cy="66" r="4.3" fill="#56a9a7"/><circle cx="34.5" cy="64.5" r="1.4" fill="#e2fff9"/>
+ <path d="M21 73h30" stroke="#e2fff9" stroke-opacity=".8" stroke-width="1.2"/>
+<g transform="translate(15 58)"><g class="swing">
   <path d="M0 0-5 7l-2 8" fill="none" stroke="#315567" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="-5" cy="7" r="3" fill="#b9a3f2" stroke="#e2fff9" stroke-width=".8"/>
   <path d="M-7 15v3q1 3 4 1l3-3m-3 3 1 3m-1-3 3 2" fill="none" stroke="#16253a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="9" cy="0" r=".1" fill="transparent"/>
+  <circle cx="7" cy="0" r=".1" fill="transparent"/>
  </g></g>
  <g transform="translate(57 58)"><g class="wave">
   <path d="M0 0 5 7l2 8" fill="none" stroke="#315567" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="5" cy="7" r="3" fill="#b9a3f2" stroke="#e2fff9" stroke-width=".8"/>
   <path d="M7 15v3q-1 3-4 1l-3-3m3 3-1 3m1-3-3 2" fill="none" stroke="#16253a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="-9" cy="0" r=".1" fill="transparent"/>
+  <circle cx="-7" cy="0" r=".1" fill="transparent"/>
  </g></g>
- <path d="M21 55h30q8 0 10 6l2 6q0 7-9 8H18q-8-1-8-7l2-7q1-6 9-6z" fill="url(#teal-shell)" stroke="#e2fff9" stroke-width="1.7"/>
- <path d="M21 58h30q4 0 5 5l1 10H16l2-10q1-5 3-5z" fill="url(#teal-side)" opacity=".55"/>
- <circle cx="36" cy="66" r="7.5" fill="#14263b" stroke="#d39cff" stroke-width="1.6"/>
- <circle cx="36" cy="66" r="4.3" fill="#56a9a7"/><circle cx="34.5" cy="64.5" r="1.4" fill="#e2fff9"/>
- <path d="M21 73h30" stroke="#e2fff9" stroke-opacity=".8" stroke-width="1.2"/>
  <circle cx="8" cy="38" r="6.5" fill="url(#teal-side)" stroke="#b9a3f2" stroke-width="1.2"/>
  <circle cx="64" cy="38" r="6.5" fill="url(#teal-side)" stroke="#b9a3f2" stroke-width="1.2"/>
  <path d="M36 11c17 0 30 10 31 24 1 13-11 22-31 22S4 49 5 35C6 21 19 11 36 11z" fill="url(#teal-shell)" stroke="#e2fff9" stroke-width="1.8"/>
