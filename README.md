@@ -22,7 +22,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 ## <img src="./assets/section-projects.svg" alt="01" width="30" height="26" /> Project notebook
 
 <details>
-  <summary><strong><code>projects /</code> Four prototypes in progress</strong> · expand the notebook</summary>
+  <summary><strong><code>projects /</code></strong></summary>
 
   <br/>
 
@@ -37,8 +37,8 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
 ## <img src="./assets/section-tools.svg" alt="02" width="30" height="26" /> My Favorite Tools
 
-<details open>
-  <summary><strong><code>toolkit /</code> Tools and platforms I’ve worked with</strong></summary>
+<details>
+  <summary><strong><code>toolkit /</code></strong></summary>
 
   <br/>
 
@@ -81,7 +81,7 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 ## <img src="./assets/section-background.svg" alt="03" width="30" height="26" /> Background
 
 <details>
-  <summary><strong><code>background /</code> Certifications and education</strong> · expand the record</summary>
+  <summary><strong><code>background /</code></strong></summary>
 
   <br/>
 
