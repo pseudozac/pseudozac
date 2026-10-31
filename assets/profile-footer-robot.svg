@@ -12,8 +12,8 @@
 .pulse{animation:pulse 2.4s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){.trace,.bot,.eye,.pulse{animation:none}}
 </style>
-<path d="M0 65h245l8-8h18l16 16h26l8-8h129m110 0h18l16 16h26l8-8h245" fill="none" stroke="#9b65d7" stroke-opacity=".3"/>
-<path class="trace" d="M0 65h245l8-8h18l16 16h26l8-8h129m110 0h18l16 16h26l8-8h245" fill="none" stroke="#00b8b4" stroke-width="1.2" stroke-dasharray="4 46"/>
+<path d="M0 65h330l8-8h18l8 8h18m36 0h18l8-8h18l8 8h330" fill="none" stroke="#9b65d7" stroke-opacity=".3"/>
+<path class="trace" d="M0 65h330l8-8h18l8 8h18m36 0h18l8-8h18l8 8h330" fill="none" stroke="#00b8b4" stroke-width="1.2" stroke-dasharray="4 46"/>
 <g class="bot" stroke-linecap="round" stroke-linejoin="round">
   <path d="M400 11V6" fill="none" stroke="#9b65d7" stroke-width="2"/>
   <circle class="pulse" cx="400" cy="5" r="3" fill="#00d5cf"/>
