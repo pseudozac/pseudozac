@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 92" width="800" height="92" role="img" aria-labelledby="title desc">
+<title id="title">Two dimensional cyber bots walk in and greet</title>
+<desc id="desc">A violet angular bot and a round teal bot walk toward one another, wave from a comfortable distance, then return to their places.</desc>
+<defs>
+  <linearGradient id="violet-shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#51407b"/><stop offset=".48" stop-color="#211c37"/><stop offset="1" stop-color="#10121e"/></linearGradient>
+  <linearGradient id="violet-side" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3a2c59"/><stop offset="1" stop-color="#131622"/></linearGradient>
+  <linearGradient id="teal-shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#347b7e"/><stop offset=".5" stop-color="#17363e"/><stop offset="1" stop-color="#101822"/></linearGradient>
+  <linearGradient id="teal-side" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#244f57"/><stop offset="1" stop-color="#101720"/></linearGradient>
+  <radialGradient id="visor" cx=".35" cy=".2"><stop stop-color="#153747"/><stop offset="1" stop-color="#0c1624"/></radialGradient>
+  <filter id="soft-glow" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+@keyframes trace{to{stroke-dashoffset:-100}}
+@keyframes approach-left{0%,9%,91%,100%{transform:translateX(0)}38%,62%{transform:translateX(192px)}}
+@keyframes approach-right{0%,9%,91%,100%{transform:translateX(0)}38%,62%{transform:translateX(-192px)}}
+@keyframes bounce{0%,9%,38%,62%,91%,100%{transform:translateY(0)}14%,26%,34%,67%,79%,87%{transform:translateY(-2px)}20%,31%,72%,84%{transform:translateY(0)}}
+@keyframes leg-a{0%,9%,38%,62%,91%,100%{transform:rotate(0)}14%,26%,34%,67%,79%,87%{transform:rotate(15deg)}20%,31%,72%,84%{transform:rotate(-15deg)}}
+@keyframes leg-b{0%,9%,38%,62%,91%,100%{transform:rotate(0)}14%,26%,34%,67%,79%,87%{transform:rotate(-15deg)}20%,31%,72%,84%{transform:rotate(15deg)}}
+@keyframes arm-swing{0%,9%,38%,62%,91%,100%{transform:rotate(0)}14%,26%,34%,67%,79%,87%{transform:rotate(-10deg)}20%,31%,72%,84%{transform:rotate(10deg)}}
+@keyframes wave{0%,38%,62%,100%{transform:rotate(0)}41%,45%,49%,53%,57%{transform:rotate(-34deg)}43%,47%,51%,55%,59%{transform:rotate(-8deg)}}
+@keyframes hello-left{0%,36%,50%,100%{opacity:0}40%,47%{opacity:1}}
+@keyframes hello-right{0%,48%,64%,100%{opacity:0}52%,61%{opacity:1}}
+@keyframes blink{0%,46%,49%,100%{transform:scaleY(1)}47.5%{transform:scaleY(.12)}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+.trace{animation:trace 7s linear infinite}
+.approach-left{animation:approach-left 8s cubic-bezier(.42,0,.25,1) infinite}
+.approach-right{animation:approach-right 8s cubic-bezier(.42,0,.25,1) infinite}
+.bounce{animation:bounce 8s linear infinite}
+.leg-a,.leg-b{transform-box:fill-box;transform-origin:top center}
+.leg-a{animation:leg-a 8s linear infinite}
+.leg-b{animation:leg-b 8s linear infinite}
+.arm-swing{transform-box:fill-box;transform-origin:50% 0;animation:arm-swing 8s linear infinite}
+.wave{transform-box:fill-box;transform-origin:50% 0;animation:wave 8s ease-in-out infinite}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 5.4s ease-in-out infinite}
+.hello-left{opacity:0;animation:hello-left 8s ease-in-out infinite}
+.hello-right{opacity:0;animation:hello-right 8s ease-in-out infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.trace,.approach-left,.approach-right,.bounce,.leg-a,.leg-b,.arm-swing,.wave,.eye,.hello-left,.hello-right,.pulse{animation:none}.hello-left,.hello-right{opacity:0}}
+</style>
+<path d="M0 82h277l9-8h22l9 8h23M460 82h23l9-8h22l9 8h277" fill="none" stroke="#9b65d7" stroke-opacity=".32"/>
+<path class="trace" d="M0 82h277l9-8h22l9 8h23M460 82h23l9-8h22l9 8h277" fill="none" stroke="#00b8b4" stroke-width="1.2" stroke-dasharray="4 46"/>
+<g class="hello-left">
+  <path d="M365 10h33q4 0 4 4v11q0 4-4 4h-12l-5 5v-5h-16q-4 0-4-4V14q0-4 4-4z" fill="#171827" stroke="#9b65d7" stroke-width="1.2"/>
+  <text x="381" y="22" text-anchor="middle" font-family="monospace" font-size="8" font-weight="700" fill="#e1d1ff">HI!</text>
+</g>
+<g class="hello-right">
+  <path d="M406 10h33q4 0 4 4v11q0 4-4 4h-16v5l-5-5h-12q-4 0-4-4V14q0-4 4-4z" fill="#171827" stroke="#56ded8" stroke-width="1.2"/>
+  <text x="423" y="22" text-anchor="middle" font-family="monospace" font-size="8" font-weight="700" fill="#adfff6">HEY!</text>
+</g>
+<!-- Angular violet bot, starting left and facing inward -->
+<g class="approach-left">
+ <g class="bounce">
+  <g transform="translate(95 0)">
+   <ellipse cx="29" cy="83" rx="22" ry="3" fill="#10131d" opacity=".26"/>
+   <path d="M26 17V10" stroke="#9b65d7" stroke-width="2.5" stroke-linecap="round"/>
+   <circle class="pulse" cx="26" cy="9" r="3" fill="#5fe8dc" filter="url(#soft-glow)"/>
+   <path d="M8 27 2 24v18l6-2m43-13 5-3v18l-5-2" fill="url(#violet-side)" stroke="#9b65d7" stroke-width="1.5"/>
+   <path d="M9 17h31q12 0 12 12v23q0 10-12 10H9Q1 62 1 53V27q0-10 8-10z" fill="url(#violet-shell)" stroke="#ae87e5" stroke-width="1.7"/>
+   <path d="M42 19 52 25v25l-10 9z" fill="url(#violet-side)" stroke="#7759ad" stroke-width="1"/>
+   <path d="M8 24q16-9 33 0v27q-17 9-33 0z" fill="url(#visor)" stroke="#70549b" stroke-width="1"/>
+   <path d="M11 26q13-6 26 0" fill="none" stroke="#d3c1ff" stroke-opacity=".55" stroke-width="1"/>
+   <ellipse class="eye" cx="20" cy="37" rx="2.7" ry="4" fill="#69f5e5"/>
+   <ellipse class="eye" cx="34" cy="37" rx="2.7" ry="4" fill="#69f5e5"/>
+   <circle cx="20.8" cy="35.7" r=".9" fill="#fff"/>
+   <circle cx="34.8" cy="35.7" r=".9" fill="#fff"/>
+   <path d="M22 45q5 4 10 0" fill="none" stroke="#c9a6ff" stroke-width="1.5" stroke-linecap="round"/>
+   <path d="M13 54q15-7 30 0v17H13z" fill="url(#violet-shell)" stroke="#8b69c7" stroke-width="1.6"/>
+   <path d="M40 55 51 59v10l-11 3z" fill="url(#violet-side)" stroke="#72539f" stroke-width="1"/>
+   <path d="m28 57 6 4-6 4-6-4z" fill="#102831" stroke="#5fe8dc" stroke-width="1.1"/>
+   <text x="28" y="62.5" text-anchor="middle" font-family="monospace" font-size="4" font-weight="700" fill="#dffffb">IZ</text>
+   <g class="arm-swing"><path d="M15 56 8 64" stroke="#b08be7" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="65" r="3" fill="#6a526f" stroke="#d2a8ff" stroke-width="1"/></g>
+   <g class="wave"><path d="M43 56 50 50" stroke="#b08be7" stroke-width="4" stroke-linecap="round"/><circle cx="51" cy="49" r="3" fill="#5fe8dc" stroke="#d6fffb" stroke-width=".8"/></g>
+   <path class="leg-a" d="M20 70v9" stroke="#9b65d7" stroke-width="3" stroke-linecap="round"/>
+   <path class="leg-b" d="M36 70v9" stroke="#9b65d7" stroke-width="3" stroke-linecap="round"/>
+   <path d="M16 81h9m8 0h9" stroke="#5fe8dc" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+ </g>
+</g>
+<!-- Rounded teal bot with an offset dome, side panels, and a lilac core -->
+<g class="approach-right">
+ <g class="bounce">
+  <g transform="translate(705 0) scale(-1 1)">
+   <ellipse cx="29" cy="83" rx="22" ry="3" fill="#10131d" opacity=".26"/>
+   <path d="M26 18V12m-5 7v-5m10 5v-5" stroke="#56ded8" stroke-width="2" stroke-linecap="round"/>
+   <circle class="pulse" cx="26" cy="10" r="2.5" fill="#d39cff"/>
+   <path d="M7 30 1 27v17l7-3m42-12 5-3v17l-6-2" fill="url(#teal-side)" stroke="#56ded8" stroke-width="1.5"/>
+   <path d="M7 22Q13 14 29 16q18 1 23 12v24q-5 12-23 12T5 52V31q0-6 2-9z" fill="url(#teal-shell)" stroke="#7ce6df" stroke-width="1.7"/>
+   <path d="M43 23 52 29v23l-9 8z" fill="url(#teal-side)" stroke="#438e90" stroke-width="1"/>
+   <path d="M10 28q17-9 32 0v23q-16 9-32 0z" fill="url(#visor)" stroke="#4b898b" stroke-width="1"/>
+   <path d="M14 30q12-6 24 0" fill="none" stroke="#d0fff7" stroke-opacity=".5" stroke-width="1"/>
+   <ellipse class="eye" cx="21" cy="38" rx="2.7" ry="4" fill="#d3a6ff"/>
+   <ellipse class="eye" cx="35" cy="38" rx="2.7" ry="4" fill="#d3a6ff"/>
+   <circle cx="21.8" cy="36.7" r=".9" fill="#fff"/>
+   <circle cx="35.8" cy="36.7" r=".9" fill="#fff"/>
+   <path d="M23 46q5 4 10 0" fill="none" stroke="#69f3e4" stroke-width="1.5" stroke-linecap="round"/>
+   <path d="M13 55q16-8 31 0v16H13z" fill="url(#teal-shell)" stroke="#56ded8" stroke-width="1.6"/>
+   <path d="M40 56 51 60v9l-11 3z" fill="url(#teal-side)" stroke="#438e90" stroke-width="1"/>
+   <path d="m29 57 6 4-6 4-6-4z" fill="#29203f" stroke="#d39cff" stroke-width="1.1"/>
+   <text x="29" y="62.5" text-anchor="middle" font-family="monospace" font-size="4" font-weight="700" fill="#f2eaff">07</text>
+   <g class="arm-swing"><path d="M15 56 8 64" stroke="#75d8d2" stroke-width="4" stroke-linecap="round"/><circle cx="7" cy="65" r="3" fill="#1b5960" stroke="#b2fff8" stroke-width="1"/></g>
+   <g class="wave"><path d="M43 56 50 50" stroke="#75d8d2" stroke-width="4" stroke-linecap="round"/><circle cx="51" cy="49" r="3" fill="#d39cff" stroke="#f2eaff" stroke-width=".8"/></g>
+   <path class="leg-b" d="M20 70v9" stroke="#56ded8" stroke-width="3" stroke-linecap="round"/>
+   <path class="leg-a" d="M36 70v9" stroke="#56ded8" stroke-width="3" stroke-linecap="round"/>
+   <path d="M16 81h9m8 0h9" stroke="#d39cff" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+ </g>
+</g>
+</svg>
