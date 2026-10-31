@@ -33,6 +33,8 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
 
   These are prototypes; the project descriptions don’t imply live integrations or production deployment.
 
+  **More builds:** [PsFi · Personal Finance Dashboard](https://github.com/pseudozac/psfi-finance-control-center) · [Sudoku Solver](https://github.com/pseudozac/sudoku)
+
 </details>
 
 ## <img src="./assets/section-tools.svg" alt="02" width="30" height="26" /> My Favorite Tools
@@ -45,35 +47,26 @@ I follow the clues behind security alerts, then turn the evidence into a clear s
   ### `01` SOC & Threat Intelligence
 
   <p>
-    <img src="./assets/tools/sentinel.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Sentinel<br/>
-    <img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;Enterprise<br/>
-    <img src="./assets/tools/securonix.svg" alt="" width="26" height="26" />&nbsp;Securonix<br/>
-    <img src="./assets/tools/recorded-future.svg" alt="" width="26" height="26" />&nbsp;Recorded&nbsp;Future<br/>
-    <img src="./assets/tools/vectra.svg" alt="" width="26" height="26" />&nbsp;Vectra&nbsp;AI<br/>
+    <img src="./assets/tools/sentinel.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Sentinel&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;Enterprise<br/>
+    <img src="./assets/tools/securonix.svg" alt="" width="26" height="26" />&nbsp;Securonix&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/recorded-future.svg" alt="" width="26" height="26" />&nbsp;Recorded&nbsp;Future<br/>
+    <img src="./assets/tools/vectra.svg" alt="" width="26" height="26" />&nbsp;Vectra&nbsp;AI
   </p>
 
   ### `02` Endpoint, Cloud & Network
 
   <p>
-    <img src="./assets/tools/defender.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Defender&nbsp;XDR<br/>
-    <img src="./assets/tools/crowdstrike.svg" alt="" width="26" height="26" />&nbsp;CrowdStrike&nbsp;Falcon<br/>
-    <img src="./assets/tools/trend-micro.svg" alt="" width="26" height="26" />&nbsp;Trend&nbsp;Micro<br/>
-    <img src="./assets/tools/guardduty.svg" alt="" width="26" height="26" />&nbsp;AWS&nbsp;GuardDuty<br/>
-    <img src="./assets/tools/wireshark.svg" alt="" width="26" height="26" />&nbsp;Wireshark<br/>
-    <img src="./assets/tools/zscaler.svg" alt="" width="26" height="26" />&nbsp;Zscaler<br/>
-    <img src="./assets/tools/cloudflare.svg" alt="" width="26" height="26" />&nbsp;Cloudflare<br/>
-    <img src="./assets/tools/akamai.svg" alt="" width="26" height="26" />&nbsp;Akamai&nbsp;DDoS&nbsp;Protection<br/>
+    <img src="./assets/tools/defender.svg" alt="" width="26" height="26" />&nbsp;Microsoft&nbsp;Defender&nbsp;XDR&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/crowdstrike.svg" alt="" width="26" height="26" />&nbsp;CrowdStrike&nbsp;Falcon<br/>
+    <img src="./assets/tools/trend-micro.svg" alt="" width="26" height="26" />&nbsp;Trend&nbsp;Micro&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/guardduty.svg" alt="" width="26" height="26" />&nbsp;AWS&nbsp;GuardDuty<br/>
+    <img src="./assets/tools/wireshark.svg" alt="" width="26" height="26" />&nbsp;Wireshark&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/zscaler.svg" alt="" width="26" height="26" />&nbsp;Zscaler<br/>
+    <img src="./assets/tools/cloudflare.svg" alt="" width="26" height="26" />&nbsp;Cloudflare&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/akamai.svg" alt="" width="26" height="26" />&nbsp;Akamai&nbsp;DDoS&nbsp;Protection
   </p>
 
   ### `03` Network Security & Automation
 
   <p>
-    <img src="./assets/tools/checkpoint.svg" alt="" width="26" height="26" />&nbsp;Check&nbsp;Point<br/>
-    <img src="./assets/tools/fortinet.svg" alt="" width="26" height="26" />&nbsp;Fortinet<br/>
-    Skybox&nbsp;Security&nbsp;<sub>(legacy)</sub><br/>
-    <img src="./assets/tools/backbox.svg" alt="" width="26" height="26" />&nbsp;BackBox&nbsp;Automation<br/>
-    <img src="./assets/tools/paloalto.svg" alt="" width="26" height="26" />&nbsp;Palo&nbsp;Alto&nbsp;Cortex&nbsp;XSOAR<br/>
-    <img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;SOAR<br/>
+    <img src="./assets/tools/checkpoint.svg" alt="" width="26" height="26" />&nbsp;Check&nbsp;Point&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/fortinet.svg" alt="" width="26" height="26" />&nbsp;Fortinet<br/>
+    Skybox&nbsp;Security&nbsp;<sub>(legacy)</sub>&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/backbox.svg" alt="" width="26" height="26" />&nbsp;BackBox&nbsp;Automation<br/>
+    <img src="./assets/tools/paloalto.svg" alt="" width="26" height="26" />&nbsp;Palo&nbsp;Alto&nbsp;Cortex&nbsp;XSOAR&nbsp;&nbsp;·&nbsp;&nbsp;<img src="./assets/tools/splunk.svg" alt="" width="26" height="26" />&nbsp;Splunk&nbsp;SOAR
   </p>
 
 </details>
