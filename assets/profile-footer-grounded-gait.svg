@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 104" width="800" height="104" role="img" aria-labelledby="title desc">
+<title id="title">Two original cyber robot companions</title>
+<desc id="desc">A squat violet workshop walker with an off-center camera eye and a sleek tapered teal scout with a curved face visor walk toward one another, wave across a wide gap, then return.</desc>
+<defs>
+ <linearGradient id="violet-shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9a3f2"/><stop offset=".42" stop-color="#66518f"/><stop offset="1" stop-color="#211c37"/></linearGradient>
+ <linearGradient id="violet-side" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#514078"/><stop offset="1" stop-color="#141824"/></linearGradient>
+ <linearGradient id="teal-shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2fff9"/><stop offset=".45" stop-color="#56a9a7"/><stop offset="1" stop-color="#183947"/></linearGradient>
+ <linearGradient id="teal-side" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#37898e"/><stop offset="1" stop-color="#152337"/></linearGradient>
+ <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#183746"/><stop offset="1" stop-color="#0b1725"/></linearGradient>
+ <radialGradient id="lens" cx=".32" cy=".25"><stop stop-color="#fff"/><stop offset=".35" stop-color="#b5fff4"/><stop offset="1" stop-color="#53d9d2"/></radialGradient>
+ <filter id="glow" x="-.6" y="-.6" width="2.2" height="2.2"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+@keyframes trace{to{stroke-dashoffset:-100}}
+@keyframes approach-left{0%,9%,91%,100%{transform:translateX(0)}38%,62%{transform:translateX(136px)}}
+@keyframes approach-right{0%,9%,91%,100%{transform:translateX(0)}38%,62%{transform:translateX(-136px)}}
+@keyframes bounce{0%,9%,38%,62%,91%,100%{transform:rotate(0)}14%,26%,34%,67%,79%,87%{transform:rotate(-2.4deg)}20%,31%,72%,84%{transform:rotate(2.4deg)}}
+@keyframes step-a{0%{transform:rotate(0deg)}9%{transform:rotate(0deg)}10.0875%{transform:translateY(-7px) rotate(22.5deg)}11.175%{transform:rotate(45deg)}16.25%{transform:rotate(-45deg)}17.3375%{transform:translateY(-7px) rotate(0deg)}18.425%{transform:rotate(45deg)}23.5%{transform:rotate(-45deg)}24.5875%{transform:translateY(-7px) rotate(0deg)}25.675%{transform:rotate(45deg)}30.75%{transform:rotate(-45deg)}31.8375%{transform:translateY(-7px) rotate(0deg)}32.925%{transform:rotate(45deg)}38%{transform:rotate(0deg)}38%{transform:rotate(0deg)}62%{transform:rotate(0deg)}63.0875%{transform:translateY(-7px) rotate(-22.5deg)}64.175%{transform:rotate(-45deg)}69.25%{transform:rotate(45deg)}70.3375%{transform:translateY(-7px) rotate(0deg)}71.425%{transform:rotate(-45deg)}76.5%{transform:rotate(45deg)}77.5875%{transform:translateY(-7px) rotate(0deg)}78.675%{transform:rotate(-45deg)}83.75%{transform:rotate(45deg)}84.8375%{transform:translateY(-7px) rotate(0deg)}85.925%{transform:rotate(-45deg)}91%{transform:rotate(0deg)}91%{transform:rotate(0deg)}100%{transform:rotate(0deg)}}
+@keyframes step-b{0%{transform:rotate(0deg)}9%{transform:rotate(0deg)}9%{transform:rotate(-45deg)}14.075%{transform:rotate(45deg)}15.1625%{transform:translateY(-7px) rotate(0deg)}16.25%{transform:rotate(-45deg)}21.325%{transform:rotate(45deg)}22.4125%{transform:translateY(-7px) rotate(0deg)}23.5%{transform:rotate(-45deg)}28.575%{transform:rotate(45deg)}29.6625%{transform:translateY(-7px) rotate(0deg)}30.75%{transform:rotate(-45deg)}35.825%{transform:rotate(45deg)}36.9125%{transform:translateY(-7px) rotate(0deg)}38%{transform:rotate(0deg)}38%{transform:rotate(0deg)}62%{transform:rotate(0deg)}62%{transform:rotate(0deg)}67.075%{transform:rotate(45deg)}68.1625%{transform:translateY(-7px) rotate(0deg)}69.25%{transform:rotate(-45deg)}74.325%{transform:rotate(45deg)}75.4125%{transform:translateY(-7px) rotate(0deg)}76.5%{transform:rotate(-45deg)}81.575%{transform:rotate(45deg)}82.6625%{transform:translateY(-7px) rotate(0deg)}83.75%{transform:rotate(-45deg)}88.825%{transform:rotate(45deg)}89.9125%{transform:translateY(-7px) rotate(0deg)}91%{transform:rotate(0deg)}100%{transform:rotate(0deg)}}
+@keyframes arm-swing{0%,9%,38%,62%,91%,100%{transform:rotate(0)}14%,26%,34%,67%,79%,87%{transform:rotate(-22deg)}20%,31%,72%,84%{transform:rotate(22deg)}}
+@keyframes knee-a{0%{transform:rotate(0deg)}9%{transform:rotate(0deg)}10.0875%{transform:rotate(38deg)}11.175%{transform:rotate(0deg)}16.25%{transform:rotate(0deg)}17.3375%{transform:rotate(38deg)}18.425%{transform:rotate(0deg)}23.5%{transform:rotate(0deg)}24.5875%{transform:rotate(38deg)}25.675%{transform:rotate(0deg)}30.75%{transform:rotate(0deg)}31.8375%{transform:rotate(38deg)}32.925%{transform:rotate(0deg)}62%{transform:rotate(0deg)}63.0875%{transform:rotate(38deg)}64.175%{transform:rotate(0deg)}69.25%{transform:rotate(0deg)}70.3375%{transform:rotate(38deg)}71.425%{transform:rotate(0deg)}76.5%{transform:rotate(0deg)}77.5875%{transform:rotate(38deg)}78.675%{transform:rotate(0deg)}83.75%{transform:rotate(0deg)}84.8375%{transform:rotate(38deg)}85.925%{transform:rotate(0deg)}100%{transform:rotate(0deg)}}
+@keyframes knee-b{0%{transform:rotate(0deg)}14.075%{transform:rotate(0deg)}15.1625%{transform:rotate(38deg)}16.25%{transform:rotate(0deg)}21.325%{transform:rotate(0deg)}22.4125%{transform:rotate(38deg)}23.5%{transform:rotate(0deg)}28.575%{transform:rotate(0deg)}29.6625%{transform:rotate(38deg)}30.75%{transform:rotate(0deg)}35.825%{transform:rotate(0deg)}36.9125%{transform:rotate(38deg)}38%{transform:rotate(0deg)}62%{transform:rotate(0deg)}63.0875%{transform:rotate(38deg)}64.175%{transform:rotate(0deg)}69.25%{transform:rotate(0deg)}70.3375%{transform:rotate(38deg)}71.425%{transform:rotate(0deg)}76.5%{transform:rotate(0deg)}77.5875%{transform:rotate(38deg)}78.675%{transform:rotate(0deg)}83.75%{transform:rotate(0deg)}84.8375%{transform:rotate(38deg)}85.925%{transform:rotate(0deg)}88.825%{transform:rotate(0deg)}89.9125%{transform:rotate(38deg)}91%{transform:rotate(0deg)}100%{transform:rotate(0deg)}}
+@keyframes wave{0%,38%,62%,100%{transform:rotate(0)}41%,45%,49%,53%,57%{transform:rotate(-32deg)}43%,47%,51%,55%,59%{transform:rotate(-8deg)}}
+@keyframes curious{0%,38%,62%,100%{transform:rotate(0)}42%,49%,55%{transform:rotate(-5deg)}46%,52%,59%{transform:rotate(3deg)}}
+@keyframes hello-a{0%,39%,50%,100%{opacity:0}42%,48%{opacity:1}}
+@keyframes hello-b{0%,49%,63%,100%{opacity:0}52%,61%{opacity:1}}
+@keyframes blink{0%,43%,46%,100%{transform:scaleY(1)}44.5%{transform:scaleY(.12)}}
+@keyframes beacon{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes shadow{0%,9%,38%,62%,91%,100%{transform:scaleX(1);opacity:.27}14%,26%,34%,67%,79%,87%{transform:scaleX(.78);opacity:.14}20%,31%,72%,84%{transform:scaleX(1.08);opacity:.3}}
+.trace{animation:trace 7s linear infinite}
+.approach-left{animation:approach-left 8s linear infinite}
+.approach-right{animation:approach-right 8s linear infinite}
+.bounce{transform-box:fill-box;transform-origin:center bottom;animation:bounce 8s linear infinite}
+.leg-a,.leg-b{transform-box:fill-box;transform-origin:50% 0}
+.leg-a{animation:step-a 8s linear infinite}.leg-b{animation:step-b 8s linear infinite}
+.calf-a,.calf-b{transform-box:fill-box;transform-origin:50% 0}
+.calf-a{animation:knee-a 8s linear infinite}.calf-b{animation:knee-b 8s linear infinite}
+.swing,.wave,.curious{transform-box:fill-box;transform-origin:50% 0}
+.swing{animation:arm-swing 8s linear infinite}.wave{animation:wave 8s ease-in-out infinite}
+.curious{animation:curious 8s ease-in-out infinite}
+.shadow{transform-box:fill-box;transform-origin:center;animation:shadow 8s linear infinite}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 5.2s ease-in-out infinite}
+.beacon{animation:beacon 2.4s ease-in-out infinite}
+.hello-a,.hello-b{opacity:0}
+.hello-a{animation:hello-a 8s ease-in-out infinite}.hello-b{animation:hello-b 8s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.trace,.approach-left,.approach-right,.bounce,.leg-a,.leg-b,.calf-a,.calf-b,.swing,.wave,.curious,.shadow,.eye,.beacon,.hello-a,.hello-b{animation:none}.hello-a,.hello-b{opacity:0}}
+</style>
+<path d="M0 94h245l9-7h27l9 7h36M468 94h36l9-7h27l9 7h251" fill="none" stroke="#9b65d7" stroke-opacity=".3"/>
+<path class="trace" d="M0 94h245l9-7h27l9 7h36M468 94h36l9-7h27l9 7h251" fill="none" stroke="#56ded8" stroke-width="1.2" stroke-dasharray="4 48"/>
+<g class="hello-a"><path d="M352 11h36q4 0 4 4v12q0 4-4 4h-13l-5 5v-5h-18q-4 0-4-4V15q0-4 4-4z" fill="#171827" stroke="#9b65d7" stroke-width="1.2"/><text x="370" y="24" text-anchor="middle" font-family="monospace" font-size="8" font-weight="700" fill="#e1d1ff">HI!</text></g>
+<g class="hello-b"><path d="M412 11h37q4 0 4 4v12q0 4-4 4h-16v5l-5-5h-16q-4 0-4-4V15q0-4 4-4z" fill="#171827" stroke="#56ded8" stroke-width="1.2"/><text x="431" y="24" text-anchor="middle" font-family="monospace" font-size="8" font-weight="700" fill="#c9fff8">HEY!</text></g>
+<!-- Rook: squat workshop walker, with an offset optical head and compact leg frame -->
+<g class="approach-left"><g class="bounce"><g transform="translate(94 0)">
+ <ellipse class="shadow" cx="39" cy="95" rx="28" ry="3" fill="#10131d" opacity=".27"/>
+ <path d="M37 40v8m7-8 2 8m-11-5 2 2-2 2 2 2m7-6-2 2 2 2-2 2" fill="none" stroke="#9b65d7" stroke-width="2" stroke-linecap="round"/>
+ <path d="M15 53 5 50v20l10-2m50-15 8-4v20l-8-2" fill="url(#violet-side)" stroke="#b9a3f2" stroke-width="1.5" stroke-linejoin="round"/>
+ <path d="M18 48h43q9 0 9 9v17H14V55q0-7 4-7z" fill="url(#violet-shell)" stroke="#cdbbff" stroke-width="1.7"/>
+ <path d="m57 51 13 6v17l-13 1z" fill="url(#violet-side)" stroke="#7759ad" stroke-width="1"/>
+ <path d="M20 53h35v15H20z" fill="#25243c" stroke="#8a72ba" stroke-width="1"/>
+ <path d="M27 57h20m-20 4h14m-14 4h18" stroke="#d4c8ec" stroke-opacity=".6" stroke-width="1"/>
+ <path d="m34 55 7 6-7 6-7-6z" fill="#102831" stroke="#56ded8" stroke-width="1.2"/><circle cx="34" cy="61" r="1.5" fill="#dffffb"/>
+ <g class="swing"><path d="M17 53 7 65" stroke="#9b65d7" stroke-width="4.2" stroke-linecap="round"/><path d="M7 64 3 67l5 2 4-3z" fill="#514078" stroke="#d1bdff" stroke-width="1"/></g>
+ <g class="wave"><path d="M61 53 70 43" stroke="#9b65d7" stroke-width="4.2" stroke-linecap="round"/><path d="m69 44 1-5 4 3-1 5z" fill="#56ded8" stroke="#c9fff8" stroke-width="1"/></g>
+ <g transform="translate(25 74)"><g class="leg-a"><path d="M0 0v5" fill="none" stroke="#9b65d7" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="5" r="2" fill="#d1bdff"/><g transform="translate(0 5)"><g class="calf-a"><path d="M0 0l-4 5v4" fill="none" stroke="#9b65d7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="5" r="2" fill="#d1bdff"/><path d="M-4 9h-6l-3 3h12" fill="#33274e" stroke="#56ded8" stroke-width="1.5" stroke-linejoin="round"/><circle cx="13" cy="0" r=".1" fill="transparent"/></g></g><circle cx="13" cy="0" r=".1" fill="transparent"/></g></g>
+ <g transform="translate(55 74)"><g class="leg-b"><path d="M0 0v5" fill="none" stroke="#9b65d7" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="5" r="2" fill="#d1bdff"/><g transform="translate(0 5)"><g class="calf-b"><path d="M0 0l4 5v4" fill="none" stroke="#9b65d7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="5" r="2" fill="#d1bdff"/><path d="M4 9h6l3 3H1" fill="#33274e" stroke="#56ded8" stroke-width="1.5" stroke-linejoin="round"/><circle cx="-13" cy="0" r=".1" fill="transparent"/></g></g><circle cx="-13" cy="0" r=".1" fill="transparent"/></g></g>
+ <g class="curious">
+  <path d="M16 18q2-7 11-7h32q8 1 10 8v20q-3 9-13 10H22Q13 47 12 39V26q0-5 4-8z" fill="url(#violet-shell)" stroke="#d8ccff" stroke-width="1.8"/>
+  <path d="m56 14 13 5v17l-13 4z" fill="url(#violet-side)" stroke="#8569bc" stroke-width="1"/>
+  <path d="M18 20q20-8 37-1v17q-19 7-37 0z" fill="url(#face)" stroke="#8975b4" stroke-width="1"/>
+  <path d="M22 21q14-5 29 0" fill="none" stroke="#eee8ff" stroke-opacity=".65" stroke-width="1.3"/>
+  <circle class="eye" cx="34" cy="28" r="7" fill="#101c2a" stroke="#56ded8" stroke-width="1.4"/>
+  <circle cx="34" cy="28" r="4.2" fill="url(#lens)" filter="url(#glow)"/><circle cx="32.5" cy="26.5" r="1.2" fill="#fff"/>
+  <circle cx="51" cy="27" r="3.3" fill="#101c2a" stroke="#b9a3f2" stroke-width="1.2"/><circle cx="51" cy="27" r="1.6" fill="#56ded8"/>
+  <path d="M23 39h6m3 0h5m3 0h4" stroke="#d1bdff" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M24 12V6" stroke="#9b65d7" stroke-width="2" stroke-linecap="round"/><circle class="beacon" cx="24" cy="5" r="2.7" fill="#56ded8" filter="url(#glow)"/>
+ </g>
+</g></g></g>
+<!-- Mira: slim pearl-teal scout with a tapered shell, cheek fins, and curved glass face -->
+<g class="approach-right"><g class="bounce"><g transform="translate(706 0) scale(-1 1)">
+ <ellipse class="shadow" cx="36" cy="95" rx="23" ry="3" fill="#10131d" opacity=".24"/>
+ <path d="M34 17V11m-6 7v-5m12 5v-5" stroke="#56ded8" stroke-width="1.8" stroke-linecap="round"/><circle class="beacon" cx="34" cy="10" r="2.5" fill="#d39cff" filter="url(#glow)"/>
+ <path d="M16 32 4 27v23l13-4m42-14 10-5v23l-12-4" fill="url(#teal-side)" stroke="#c9fff8" stroke-width="1.5" stroke-linejoin="round"/>
+ <path d="M34 15q20 0 28 17v23q-3 20-27 27-23-5-29-25V34q7-19 28-19z" fill="url(#teal-shell)" stroke="#e4fffc" stroke-width="1.8"/>
+ <path d="m53 20 10 13v21l-10 17z" fill="url(#teal-side)" stroke="#56a5a8" stroke-width="1"/>
+ <path d="M12 34q21-12 43 0v17q-20 12-43 0z" fill="url(#face)" stroke="#7ac8c8" stroke-width="1.2"/>
+ <path d="M17 35q16-8 34 0" fill="none" stroke="#f3fffd" stroke-opacity=".8" stroke-width="1.3"/>
+ <g class="curious">
+  <path class="eye" d="M20 42q5-6 10 0-5 6-10 0z" fill="url(#lens)" filter="url(#glow)"/>
+  <path class="eye" d="M37 42q5-6 10 0-5 6-10 0z" fill="url(#lens)" filter="url(#glow)"/>
+  <circle cx="23" cy="41" r="1" fill="#fff"/><circle cx="40" cy="41" r="1" fill="#fff"/>
+  <path d="M27 48q5 4 10 0" fill="none" stroke="#b9a3f2" stroke-width="1.5" stroke-linecap="round"/>
+ </g>
+ <path d="M18 58q17-8 36 0l-4 18q-13 7-27 0z" fill="url(#teal-shell)" stroke="#9ce8e1" stroke-width="1.5"/>
+ <path d="m39 59 7 5-7 5-7-5z" fill="#25203d" stroke="#d39cff" stroke-width="1.2"/><circle cx="39" cy="64" r="1.4" fill="#fff"/>
+ <g class="swing"><path d="M17 55 8 65" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round"/><circle cx="8" cy="66" r="3" fill="#296f7b" stroke="#c9fff8" stroke-width="1"/></g>
+ <g class="wave"><path d="M54 55 63 46" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round"/><circle cx="64" cy="44" r="3.2" fill="#d39cff" stroke="#fff" stroke-width="1"/></g>
+ <g transform="translate(26 75)"><g class="leg-a"><path d="M0 0v5" fill="none" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round"/><circle cx="0" cy="5" r="1.8" fill="#f1fffc"/><g transform="translate(0 5)"><g class="calf-a"><path d="M0 0l-3 5v4" fill="none" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-3" cy="5" r="1.8" fill="#f1fffc"/><path d="M-3 9h-5l-3 3h11" fill="#173a4c" stroke="#d39cff" stroke-width="1.5" stroke-linejoin="round"/><circle cx="11" cy="0" r=".1" fill="transparent"/></g></g><circle cx="11" cy="0" r=".1" fill="transparent"/></g></g>
+ <g transform="translate(49 75)"><g class="leg-b"><path d="M0 0v5" fill="none" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round"/><circle cx="0" cy="5" r="1.8" fill="#f1fffc"/><g transform="translate(0 5)"><g class="calf-b"><path d="M0 0l3 5v4" fill="none" stroke="#56ded8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="3" cy="5" r="1.8" fill="#f1fffc"/><path d="M3 9h5l3 3H0" fill="#173a4c" stroke="#d39cff" stroke-width="1.5" stroke-linejoin="round"/><circle cx="-11" cy="0" r=".1" fill="transparent"/></g></g><circle cx="-11" cy="0" r=".1" fill="transparent"/></g></g>
+</g></g></g>
+</svg>
